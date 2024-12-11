@@ -20,7 +20,7 @@ export default function FeaturedProducts() {
               <div className="nested-all-feature-2 n-f-2-1">
                 <h5 className="text-[16px] font-bold">Graphic Design </h5>
                 <p className="text-[14px] text-[#737373] text-bold title-p">
-                  English Department
+                  Arabic Department
                 </p>
                 <div className="span-div-price">
                   <div className="price-1">$16.48</div>

@@ -2,7 +2,7 @@ export default function Desktop2() {
   return (
     <>
       <div className="max-w-[1444px] h-auto bg-fuchsia-300 m-auto">
-        <div className="max-w-[1044px] m-auto h-[770px] bg-green-200   ">
+        <div className="max-w-[1044px] m-auto h-auto bg-green-200 px-2   ">
           <div className=" text-center leading-9 py-[80px] bg-red-300 ">
             <h3 className="font-bold text-[24px]">EDITOR’S PICK</h3>
             <p className="text-[#737373] text-[14px] font-semibold">

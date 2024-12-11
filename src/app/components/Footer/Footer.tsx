@@ -13,7 +13,7 @@ export default function Footer() {
               <i className="fa-brands footer-fa-brands fa-twitter text-[23px]   "></i>
             </div>
           </div>
-          <div className="footer-div bg-green-300 py-[40px]">
+          <div className="footer-div bg-green-300 px-2 py-[40px]">
             <div className="bg-red-200">
               <h5 className="footer-h5">Company Info</h5>
               <ul className="footer-ul">
@@ -60,7 +60,9 @@ export default function Footer() {
                 />
                 <button className="footer-btn">Subscribe</button>
               </div>
-              <span className="text-[#737373] ">Loret imp sum dolor Amit</span>
+              <p className="text-[#737373] font-bold pt-2">
+                Loret imp sum dolor Amit
+              </p>
             </div>
           </div>
           <div>
