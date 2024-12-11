@@ -65,7 +65,7 @@ export default function Footer() {
           </div>
           <div>
             <h6 className="text-[#737373] font-bold py-[40px] bg-blue-900 text-center">
-              Made With Love By Finland All Right Reserved{" "}
+              Made With Love By Hamza Shabbir All Right Reserved{" "}
             </h6>
           </div>
         </div>

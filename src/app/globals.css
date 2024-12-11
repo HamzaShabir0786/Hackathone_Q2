@@ -44,8 +44,18 @@ body {
 }
 @media (max-width: 480px) {
   .landing-home {
-    background-position-x: 50rem;
+    background-position-x: 55rem;
     /* background-position: center; */
+  }
+}
+@media (max-width: 320px) {
+  .landing-home {
+    background-position-x: 48rem;
+
+    /* background-position: center; */
+  }
+  body {
+    padding: 3px;
   }
 }
 
