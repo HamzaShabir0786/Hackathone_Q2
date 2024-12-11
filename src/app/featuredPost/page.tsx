@@ -15,7 +15,7 @@ export default function FeaturedPost() {
               realms of Classical physics: Newtonian mechanics
             </p>
           </div>
-          <div className="grid-featured-post ">
+          <div className="grid-featured-post bg-blue-400 ">
             <div className="featured-items featured-i-1   ">
               <div className="all-featured-post-n-1 h-[50%]  f-p-n-1 "></div>
               <div className="all-featured-post-n-2 h-[50%] p-4 f-p-n-2  flex  flex-col justify-around">
@@ -37,7 +37,7 @@ export default function FeaturedPost() {
                     <i className="fa-regular fa-bell pr-2"></i>
                     22 April 2021
                   </span>
-                  <span className="text-[#737373] text-[12px]">
+                  <span className="text-[#737373] text-[12px] flex">
                     <i className="fa-solid fa-chart-simple pr-2"></i>
                     10 comments
                   </span>
@@ -71,7 +71,7 @@ export default function FeaturedPost() {
                     <i className="fa-regular fa-bell pr-2"></i>
                     22 April 2021
                   </span>
-                  <span className="text-[#737373] text-[12px]">
+                  <span className="text-[#737373] text-[12px] flex">
                     <i className="fa-solid fa-chart-simple pr-2"></i>
                     10 comments
                   </span>
@@ -86,7 +86,7 @@ export default function FeaturedPost() {
             </div>
             <div className="featured-items featured-i-3 ">
               <div className="all-featured-post-n-1 h-[50%]  f-p-n-5 "></div>
-              <div className="all-featured-post-n-2 h-[50%] p-4 f-p-n-6  flex  flex-col justify-around">
+              <div className="all-featured-post-n-2 h-[50%] p-4 f-p-n-6  flex  flex-col justify-around bg-red-400">
                 <div className=" flex gap-4">
                   <a>Google </a>
                   <a>Trending</a>
@@ -105,7 +105,7 @@ export default function FeaturedPost() {
                     <i className="fa-regular fa-bell pr-2"></i>
                     22 April 2021
                   </span>
-                  <span className="text-[#737373] text-[12px]">
+                  <span className="text-[#737373] text-[12px] bg-red-300 flex">
                     <i className="fa-solid fa-chart-simple pr-2"></i>
                     10 comments
                   </span>

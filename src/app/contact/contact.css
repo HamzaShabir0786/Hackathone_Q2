@@ -1,0 +1,58 @@
+.max-w {
+  max-width: 1440px;
+  /* background-color: pink; */
+  margin: auto;
+}
+.contact-nav {
+  /* max-width: 1040px; */
+  background-color: palegreen;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 4rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+.contact-nav h3 {
+  font-weight: 700;
+  font-size: 24px;
+}
+.fa-solid {
+  /* background-color: pink; */
+}
+
+.ul-div ul {
+  display: flex;
+  gap: 30px;
+  /* background-color: rebeccapurple; */
+}
+.ul-div ul li {
+  color: #737373;
+  font-weight: 700;
+  font-size: 14px;
+}
+.contact-btns-div {
+  display: flex;
+  justify-content: center;
+  /* background-color: saddlebrown; */
+  height: 3rem;
+  gap: 10px;
+}
+
+.contact-btns-div .login-btn {
+  color: #23a6f0;
+  font-weight: 700;
+  padding-right: 3rem;
+}
+.contact-btns-div .member-btn {
+  background-color: #23a6f0;
+  color: white;
+  padding-right: 1rem;
+  padding-left: 1rem;
+  font-weight: 700;
+  border-radius: 5px;
+}
+.fa-solid-contact-nav {
+  padding-left: 1rem;
+}
