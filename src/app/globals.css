@@ -225,6 +225,7 @@ body {
   /* width: 1050px; */
   height: auto;
   grid-template-columns: repeat(6, minmax(148px, 1fr));
+
   grid-template-rows: repeat(1, minmax(165px, 165px));
   grid-auto-rows: 165px;
   gap: 5px;
@@ -259,26 +260,37 @@ body {
   border-bottom-right-radius: 3px;
 }
 /* vital classic start from here */
-.vital-grid {
+.vital-flex {
   display: flex;
   justify-content: space-between;
-
-  /* background-color: salmon; */
   max-width: 1144px;
   margin: auto;
-  background-color: #23a6f0;
+  height: auto;
+  background-color: #af23f0;
+  padding: 0.4rem;
+  gap: 10px;
 }
-.vital-grid h1 {
+.vital-flex h1 {
   font-size: 58px;
   font-weight: 700;
   color: #fafafa;
 }
+.vital-flex-1 {
+  width: 50%;
+  height: 500px;
+}
+.vital-flex-2 {
+  width: 50%;
+  height: 500px;
+  /* height: 1000px; */
+}
 .landing-bg-classic {
   background-image: url("/images/hero2.png");
-  background-size: cover;
+  background-size: contain;
+  background-repeat: no-repeat;
   background-color: pink;
-  height: 527px;
-  width: 510px;
+  width: 50%;
+  height: auto;
 }
 
 /* vital classic end from here */
@@ -300,13 +312,16 @@ body {
     height: auto;
   }
   .footer-div {
-    grid-template-columns: repeat(auto-fill, minmax(148px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
     gap: 2px;
-    background-color: rgb(80, 62, 62);
     height: auto;
+    background-color: rgb(80, 62, 62);
   }
   .get-in-touch {
-    grid-column: 5/6;
+    /* grid-column: 5/7; */
+    grid-column: auto;
+    /* grid-template-columns: minmax(296px, 1fr); */
+    background-color: pink;
   }
   .desktop2-grid {
     grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
@@ -319,6 +334,11 @@ body {
   .d-g-i-1 {
     grid-column: 1;
     background-image: url("/images/img-1.png");
+  }
+  .footer-heading {
+    flex-direction: column;
+    align-items: start;
+    gap: 20px;
   }
 }
 @media (max-width: 1440px) {
@@ -346,6 +366,25 @@ body {
   }
   .d-g-i-3 {
     grid-column: span 2;
+  }
+  .vital-flex {
+    flex-direction: column;
+
+    height: auto;
+    align-items: center;
+  }
+  .vital-flex-1 {
+      height: 70vh;
+    width: 100%;
+
+    @apply py-[10px];
+  }
+  .vital-flex-2 {
+    height: 70vh;
+    width: 100%;
+    background-color: red;
+    padding: 1rem;
+    border: 4px green solid;
   }
 }
 @media (max-width: 768px) {

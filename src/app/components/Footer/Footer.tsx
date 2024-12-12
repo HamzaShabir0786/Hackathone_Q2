@@ -3,11 +3,11 @@ export default function Footer() {
     <>
       <div className="bg-blue-300 max-w-[1440px]  m-auto">
         <div className="bg-purple-300 max-w-[1040px] m-auto px-2 pt-[40px]">
-          <div className="py-[40px] flex justify-between bg-slate-400 px-2">
+          <div className="py-[40px] footer-heading flex justify-between bg-slate-400 px-2">
             <div className="bg-emerald-50">
               <h3 className="font-bold text-[24px]">Bandage</h3>
             </div>
-            <div className=" flex gap-5 text-[#23A6F0]">
+            <div className="  flex gap-5 text-[#23A6F0]">
               <i className="fa-brands footer-fa-brands fa-facebook  text-[23px]    "></i>
               <i className="fa-brands footer-fa-brands fa-instagram text-[23px]   "></i>
               <i className="fa-brands footer-fa-brands fa-twitter text-[23px]   "></i>
