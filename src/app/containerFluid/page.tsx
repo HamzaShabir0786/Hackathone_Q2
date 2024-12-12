@@ -1,12 +1,12 @@
 export default function Fluid() {
   return (
     <>
-      <div className="w-[1439px] h-[716px] m-auto bg-gray-600">
-        <div className="w-[1044px] h-[651px] mt-[48px] absolute ml-[197.5px] gap-[80px]  flex items-center bg-green-300">
-          <div className="h-[427px] w-[509px]  py-[48px]  gap-[30px] bg-red-800  fluid-landing"></div>
+      <div className="max-w-[1440px] h-[auto] m-auto  px-2 ">
+        <div className="max-w-[1144px] h-[auto] py-[80px]  m-auto  gap-[40px]   fluid-flex">
+          <div className="h-[500px] w-[50%]   gap-[30px]   fluid-landing fluid-flex-1"></div>
 
-          <div className=" h-[427px] w-[509px] bg-yellow-900">
-            <div className="max-w-[599px] h-[427px] gap-[35px]  flex flex-col justify-between bg-red-300">
+          <div className=" h-[500px] w-[50%]   fluid-flex-2 ">
+            <div className="w-[100%] h-[500px] gap-[35px]  flex flex-col justify-end   ">
               <h5 className="text-[#BDBDBD] font-bold text-[16px]">
                 Summer 2024
               </h5>

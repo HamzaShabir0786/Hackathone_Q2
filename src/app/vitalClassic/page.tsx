@@ -10,9 +10,9 @@ export default function VitalClassic() {
         </div>
       </div> */}
       <div className="max-w-[1440px] h-[auto] m-auto bg-[#23856d]  px-2 py-[80px] ">
-        <div className="vital-flex ">
-          <div className="vital-flex-1  bg-red-900  ">
-            <div className="w-[auto] h-[100%] flex flex-col  justify-around bg-purple-300">
+        <div className="vital-flex  ">
+          <div className="vital-flex-1 h-[500px]  ">
+            <div className="w-[auto] h-[100%] flex flex-col  justify-end ">
               <h5 className="text-white font-bold text-[16px] ">Summer 2024</h5>
               <h1>
                 Vita Classic <br></br> Product
@@ -23,7 +23,7 @@ export default function VitalClassic() {
                   will act, We know
                 </h4>
               </div>
-              <div className="flex ">
+              <div className="flex  mt-4 ">
                 <div className="flex justify-center items-center">
                   <h3 className="text-[24px] font-bold text-white px-4 cursor-pointer">
                     $16.48
@@ -37,7 +37,7 @@ export default function VitalClassic() {
               </div>
             </div>
           </div>
-          <div className="vital-flx-2 landing-bg-classic    bg-yellow-400 "></div>
+          <div className="vital-flex-2 landing-bg-classic  "></div>
         </div>
       </div>
     </>

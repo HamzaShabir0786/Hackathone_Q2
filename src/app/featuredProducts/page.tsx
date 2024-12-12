@@ -4,7 +4,7 @@ export default function FeaturedProducts() {
     <>
       <div className="max-w-[1444px] h-[auto]  m-auto">
         <div className="max-w-[1044px] h-[auto]  m-auto">
-          <div className="bg-gray-300 text-center py-[80px]">
+          <div className=" text-center py-[80px]">
             <h4 className="font-[400]  text-[20px] text-[#737373] ">
               Featured Products
             </h4>
@@ -14,7 +14,7 @@ export default function FeaturedProducts() {
             </p>
           </div>
 
-          <div className="feature-grid bg-green-50 ">
+          <div className="feature-grid  pb-[80px]">
             <div className="feature-grid-items f-g-i-1">
               <div className="nested-all-feature-1 n-f-1 "></div>
               <div className="nested-all-feature-2 n-f-2-1">

@@ -1,9 +1,9 @@
 export default function FeaturedPost() {
   return (
     <>
-      <div className="max-w-[1440px] h-[auto]  bg-green-100 m-auto">
+      <div className="max-w-[1440px] h-[auto]  m-auto">
         <div className="max-w-[1040px] m-auto   ">
-          <div className="bg-blue-100 py-[80px] text-center">
+          <div className="py-[80px] text-center">
             <h6 className="text-[#23A6F0] font-bold text-[14px]">
               Practice Advice
             </h6>
@@ -15,7 +15,7 @@ export default function FeaturedPost() {
               realms of Classical physics: Newtonian mechanics
             </p>
           </div>
-          <div className="grid-featured-post bg-blue-400 ">
+          <div className="grid-featured-post  ">
             <div className="featured-items featured-i-1   ">
               <div className="all-featured-post-n-1 h-[50%]  f-p-n-1 "></div>
               <div className="all-featured-post-n-2 h-[50%] p-4 f-p-n-2  flex  flex-col justify-around">
@@ -43,7 +43,7 @@ export default function FeaturedPost() {
                   </span>
                 </div>
                 <div>
-                  <span className="text-[#737373] text-[12px] font-bold flex">
+                  <span className="text-[#737373] text-[12px] font-bold flex items-center">
                     Learn More
                     <i className="fa-solid fa-arrow-right pl-2"></i>
                   </span>
@@ -77,7 +77,7 @@ export default function FeaturedPost() {
                   </span>
                 </div>
                 <div>
-                  <span className="text-[#737373] text-[12px] font-bold flex">
+                  <span className="text-[#737373] text-[12px] font-bold flex items-center">
                     Learn More
                     <i className="fa-solid fa-arrow-right pl-2"></i>
                   </span>
@@ -86,7 +86,7 @@ export default function FeaturedPost() {
             </div>
             <div className="featured-items featured-i-3 ">
               <div className="all-featured-post-n-1 h-[50%]  f-p-n-5 "></div>
-              <div className="all-featured-post-n-2 h-[50%] p-4 f-p-n-6  flex  flex-col justify-around bg-red-400">
+              <div className="all-featured-post-n-2 h-[50%] p-4 f-p-n-6  flex  flex-col justify-around ">
                 <div className=" flex gap-4">
                   <a>Google </a>
                   <a>Trending</a>
@@ -105,13 +105,13 @@ export default function FeaturedPost() {
                     <i className="fa-regular fa-bell pr-2"></i>
                     22 April 2021
                   </span>
-                  <span className="text-[#737373] text-[12px] bg-red-300 flex">
+                  <span className="text-[#737373] text-[12px]  flex">
                     <i className="fa-solid fa-chart-simple pr-2"></i>
                     10 comments
                   </span>
                 </div>
                 <div>
-                  <span className="text-[#737373] text-[12px] font-bold flex">
+                  <span className="text-[#737373] text-[12px] font-bold flex items-center ">
                     Learn More
                     <i className="fa-solid fa-arrow-right pl-2"></i>
                   </span>
