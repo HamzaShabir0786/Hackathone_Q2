@@ -19,14 +19,14 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <head>
+      {/* <head>
         <style>
           <link
             rel="stylesheet"
             href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
           />
         </style>
-      </head>
+      </head> */}
       <body className={inter.className}>
         <Header />
         {children}
