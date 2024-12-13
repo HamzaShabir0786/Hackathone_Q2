@@ -94,7 +94,15 @@
   .small-business-div {
     width: auto;
   }
+
+  .ul-div ul {
+    @apply flex gap-[10px];
+  }
+  .ul-div ul li {
+    @apply text-[#737373] font-bold text-[12px];
+  }
 }
+
 @media (max-width: 430px) {
   .grid-contact-home {
     grid-template-columns: repeat(auto-fill, minmax(220px, auto));
