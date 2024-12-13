@@ -1,18 +1,11 @@
-.max-w {
-  max-width: 1440px;
-  /* background-color: pink; */
-  margin: auto;
-}
 .contact-nav {
   /* max-width: 1040px; */
-  background-color: palegreen;
+  background-color: rgb(149, 85, 85);
   margin: auto;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-around;
   height: 4rem;
-  padding-left: 1rem;
-  padding-right: 1rem;
 }
 .contact-nav h3 {
   font-weight: 700;
@@ -53,6 +46,70 @@
   font-weight: 700;
   border-radius: 5px;
 }
-.fa-solid-contact-nav {
-  padding-left: 1rem;
+.fa-solid-contact {
+  color: #23a6f0;
+}
+
+.flex-contact-child-2 {
+  background-image: url("/images/contact-img.png");
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-color: maroon;
+  background-size: contain;
+}
+.contact-business-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(300px, 1fr));
+  grid-template-rows: repeat(1, minmax(400px, 410px));
+  grid-auto-rows: minmax(400, 410px);
+  background-color: #23a6f0;
+
+  margin-top: 4rem;
+  gap: 1rem;
+}
+.contact-business-items {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  text-align: center;
+  transition: all 0.2s linear;
+  font-weight: 700;
+}
+
+.c-b-i-2 {
+  color: white;
+  background: #252b42;
+  transform: scale(1.1);
+}
+.c-b-i-2,
+.contact-business-items:hover {
+  color: white;
+  background: #252b42;
+  transform: scale(1.1);
+}
+.contact-btn {
+  width: 10rem;
+  padding: 0.7rem;
+  margin-left: 50%;
+  transform: translate(-50%);
+  color: #23a6f0;
+  border: 2px solid #23a6f0;
+  border-radius: 20px;
+}
+.grid-contact-home {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(400px, 1fr));
+  grid-template-rows: repeat(1, minmax(600px, 610px));
+  grid-auto-rows: minmax(600px, 610px);
+  gap: 20px;
+}
+@media (max-width: 791px) {
+  .grid-contact-home {
+    grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+    /* grid-template-rows: repeat(1, minmax(600px, 610px));
+    gap: 20px; */
+  }
+  .home-contact {
+    @apply py-20;
+  }
 }

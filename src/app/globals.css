@@ -1,7 +1,6 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
 * {
   font-family: sans-serif;
   background-position: start;
@@ -9,9 +8,7 @@
   box-sizing: border-box;
   padding: 0%;
 }
-body {
-  @apply px-2;
-}
+
 .fa-brands {
   width: 26px;
   height: 26px;
@@ -22,11 +19,10 @@ body {
 .fa-solid-home-nav {
   display: flex;
   align-items: center;
-  /* background-color: #23856d; */
+
   height: auto;
 }
 .landing-home {
-  /* @apply flex flex-col items-center justify-center h-screen; */
   background-image: url("/images/hero1.jpg");
   background-size: cover;
 }
@@ -68,7 +64,6 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
 }
-
 .feature-grid {
   display: grid;
   width: auto;
@@ -80,14 +75,12 @@ body {
 
   row-gap: 100px;
 }
-
 .nested-all-feature-1 {
   height: 70%;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: top;
 }
-
 .n-f-1 {
   background-image: url("/images/bg-f1.png");
 }
@@ -172,17 +165,11 @@ body {
   gap: 28px;
   height: auto;
 }
-.featured-items {
-  /* background-color: yellow;
-  padding: 5px; */
-}
+
 .all-featured-post-n-2 {
   background-color: white;
 }
-/* .all-featured-post-n-1 {
-  background-image: url("/images/feature-01.png");
-  background-size: cover;
-} */
+
 .f-p-n-1 {
   background-image: url("/images/feature-01.png");
   background-size: cover;
@@ -244,7 +231,6 @@ body {
   max-width: 1144px;
   margin: auto;
   height: auto;
-  /* background-color: #af23f0; */
 
   gap: 10px;
 }
@@ -263,13 +249,12 @@ body {
   background-image: url("/images/hero2.png");
   background-size: contain;
   background-repeat: no-repeat;
-  /* background-color: pink; */
-  width: 50%;
-  height: 500px;
-  /* height: 100vh; */
-}
 
+  width: 50%;
+  height: 570px;
+}
 /* vital classic end from here */
+
 /* fluid flex start from here */
 .fluid-flex {
   padding: 2px;
@@ -277,9 +262,6 @@ body {
 }
 /* fluid flex end from here */
 
-/* footer start from here */
-
-/* footer end from here */
 @media (max-width: 1062px) {
   .feature-grid {
     grid-template-columns: repeat(auto-fill, minmax(238px, 1fr));
@@ -295,7 +277,7 @@ body {
   }
   .footer-div {
     grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
-    gap: 2px;
+    row-gap: 50px;
     height: auto;
   }
   .get-in-touch {
@@ -333,10 +315,63 @@ body {
     background-position: center;
   }
 }
-
+@media (max-width: 940px) {
+  .follow-us-nav h6 {
+    @apply text-[12px];
+  }
+  .email-nav {
+    @apply gap-2;
+  }
+  .email-nav h6 {
+    @apply text-[12px];
+  }
+  .number-nav {
+    @apply gap-2;
+  }
+  .number-nav h6 {
+    @apply text-[12px];
+  }
+  .follow-us-icons-nav {
+    @apply gap-2;
+  }
+  .follow-us-icons-nav h6 {
+    @apply text-[12px];
+  }
+  .login-nav {
+    @apply px-2 text-[12px] gap-2;
+  }
+  .li-div-nav {
+    @apply px-1 gap-[10px] text-[12px];
+  }
+}
+@media (max-width: 817px) {
+  .follow-us-nav h6 {
+    @apply text-[10px];
+  }
+  .email-nav {
+    @apply gap-1;
+  }
+  .email-nav h6 {
+    @apply text-[10px];
+  }
+  .number-nav {
+    @apply gap-1;
+  }
+  .number-nav h6 {
+    @apply text-[10px];
+  }
+  .follow-us-icons-nav {
+    @apply gap-1;
+  }
+  .follow-us-icons-nav h6 {
+    @apply text-[10px];
+  }
+  .child-nav-1 {
+    @apply px-1;
+  }
+}
 @media (max-width: 791px) {
   .d-g-i-1 {
-    /* grid-column: 1/0; */
     background-image: url("/images/img-1.png");
     background-position: start;
   }
@@ -346,7 +381,10 @@ body {
   .vital-flex {
     flex-direction: column;
     height: auto;
-    align-items: center;
+    align-items: flex-start;
+    justify-content: space-between;
+
+    gap: 13rem;
   }
   .vital-flex-1 {
     width: 100%;
@@ -355,7 +393,6 @@ body {
   }
   .vital-flex-2 {
     width: 100%;
-    /* background-color: red; */
   }
   .fluid-flex-1 {
     width: 100%;
@@ -363,12 +400,18 @@ body {
   .fluid-flex-2 {
     width: 100%;
   }
-  .fluid-flex {
-    @apply bg-red-900;
-  }
+
   .fluid-flex {
     flex-direction: column;
     align-items: center;
+  }
+  .home-contact {
+    height: auto;
+  }
+  .grid-contact-home {
+    grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+    /* grid-template-rows: repeat(1, minmax(600px, 610px));
+    gap: 20px; */
   }
 }
 @media (max-width: 768px) {

@@ -56,7 +56,7 @@ export default function Footer() {
                 <input
                   type="text py-4"
                   placeholder="Your Email"
-                  className="pl-2 bg-slate-300 footer-input"
+                  className="pl-2 bg-[#F9F9F9] footer-input"
                 />
                 <button className="footer-btn">Subscribe</button>
               </div>

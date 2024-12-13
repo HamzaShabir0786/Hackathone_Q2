@@ -2,25 +2,25 @@ export default function Header() {
   return (
     <>
       <nav className="nav-con  bg-sky-100 max-w-[1440px] m-auto ">
-        <div className="child-nav-1    h-[3rem]  flex items-center justify-between px-4 text-white bg-[#252B42]  mobile:bg-[red] ">
+        <div className="child-nav-1    h-[3rem]  flex items-center justify-between px-4 text-white bg-[#252B42]   ">
           <div className="flex justify-between ">
             <div className=" flex items-center gap-6 h-[46px] font-bold text-[14px] px-2">
-              <div className="flex gap-6 items-center">
+              <div className="number-nav flex gap-6 items-center">
                 <i className="fa-solid fa-solid-home-nav fa-phone text-white"></i>
                 <h6>(225)555-0118</h6>
               </div>
-              <div className="flex gap-6 items-center">
+              <div className="email-nav  flex gap-6 items-center">
                 <i className="fa-solid fa-solid-home-nav fa-message text-white"></i>
                 <h6>hamzii2205@gmail.com</h6>
               </div>
             </div>
           </div>
-          <div className=" h-[46px] flex items-center">
+          <div className="follow-us-nav  h-[46px] flex items-center ">
             <h6 className="text-[14px] font-bold ">
               Follow US and get a chance to Win 80% Off
             </h6>
           </div>
-          <div className="w-[auto]   h-[46px] p-[10px] gap-[10px] flex ">
+          <div className="follow-us-icons-nav w-[auto]   h-[46px] p-[10px] gap-[10px] flex ">
             <h6 className=" font-[700] text-[14px] leading-[24px] text-white">
               Follow US:
             </h6>
@@ -36,7 +36,7 @@ export default function Header() {
           <div>
             <h3 className="font-bold text-[24px]">Bandage</h3>
           </div>
-          <div className="flex list-none font-bold gap-[15px] text-[#737373] text-[13px]">
+          <div className="li-div-nav flex list-none font-bold gap-[15px] text-[#737373] text-[13px]">
             <li>Home</li>
             <li>Shop</li>
             <li>About</li>
@@ -45,8 +45,8 @@ export default function Header() {
             <li>Pages</li>
           </div>
 
-          <div className="   flex items-center justify-between  text-[#23a6f0] h-[46px] p-4">
-            <div className="flex items-center  w-[140px] h-9">
+          <div className=" login-nav  flex items-center gap-5 text-[#23a6f0] h-[46px] p-4">
+            <div className="flex items-center  h-9">
               <div className="flex items-center  ">
                 <i className="fa-solid fa-solid-home-nav fa-user pr-2 "></i>
                 <div>
