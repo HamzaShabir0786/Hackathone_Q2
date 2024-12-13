@@ -368,6 +368,54 @@
   display: grid;
   grid-template-columns: repeat(4, minmax(150px, 1fr));
 }
+.grid-team {
+  height: 500px;
+  max-width: 1040px;
+  display: grid;
+  grid-template-columns: repeat(3, minmax(310px, 1fr));
+  grid-template-rows: repeat(2, minmax(350px, 355px));
+  grid-auto-rows: minmax(200px, 1fr);
+  background-color: blue;
+  gap: 20px;
+}
+.g-n-t-all-01 {
+  height: 60%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.g-n-t-all-02 {
+  height: 40%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  @apply py-4;
+}
+.grid-team-icons-div {
+  @apply w-[8rem] flex justify-between px-2;
+}
+.grid-team-icons-div i {
+  @apply text-[#23A6F0] text-[24px];
+}
+.g-n-t-01-1 {
+  background-image: url("/images/t-m-1.jpg");
+}
+.g-n-t-01-2 {
+  background-image: url("/images/t-m-2.jpg");
+}
+.g-n-t-01-3 {
+  background-image: url("/images/t-m-3.jpg");
+}
+.fa-brands-companies {
+}
+.company-grid {
+  display: grid;
+  grid-template-columns: repeat(6, minmax(auto, auto));
+  grid-template-rows: repeat(1, minmax(auto, auto));
+  grid-auto-rows: auto;
+}.company-info-div{
+  background-color: aqua;
+}
 /* about page css end here */
 @media (max-width: 1062px) {
   .feature-grid {
