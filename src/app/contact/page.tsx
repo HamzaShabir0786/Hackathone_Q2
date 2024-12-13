@@ -1,30 +1,13 @@
 import "./contact.css";
+import Nav2 from "../components/nav2/nav2";
 export default function Contact() {
   return (
     <>
       <div className="max-w-[1440px] h-auto  m-auto">
-        <nav className="contact-nav max-w-[1440px] ">
-          <h3>Bandage</h3>
-          <div className="ul-div">
-            <ul>
-              <li>Home</li>
-              <li>Product</li>
-              <li>Pricing</li>
-              <li>Contact</li>
-            </ul>
-          </div>
-          <div className="contact-btns-div">
-            <button className="login-btn">Login</button>
-            <button className="member-btn">
-              Become a member{" "}
-              <i className="fa-solid fa-solid-contact-nav fa-arrow-right"></i>
-            </button>
-          </div>
-        </nav>
-
-        <div className="home-contact  max-w-[1440px] h-[750px] py-[80px] m-auto bg-purple-400 px-2">
+        <Nav2 />
+        <div className="home-contact  max-w-[1440px] h-[750px] py-[80px] m-auto px-2">
           <div className=" grid-contact-home">
-            <div className="flex-contact-child-1  flex flex-col justify-around w-[100%]   bg-red-500">
+            <div className="flex-contact-child-1  flex flex-col justify-around w-[100%]   ">
               <h5 className="font-bold text-[16px] text-[#252B42]">
                 CONTACT US
               </h5>
@@ -53,15 +36,15 @@ export default function Contact() {
             <div className="flex-contact-child-2 w-[100%]"></div>
           </div>
         </div>
-        <div className="max-w-[1040px] h-[auto] py-[80px] m-auto bg-purple-900">
-          <div className="w-[640px] bg-pink-400 m-auto py-2 text-center">
+        <div className="max-w-[1040px] h-[auto] py-[80px] px-2 m-auto ">
+          <div className="small-business-div w-[640px]  m-auto py-2 text-center">
             <h6 className="font-bold text-[#252B42] ">VISIT OUR OFFICE</h6>
             <h1 className="font-bold text-[40px] text-[#252B42] ">
               We help small businesses with big ideas
             </h1>
           </div>
-          <div className="contact-business-grid bg-gray-500 ">
-            <div className="contact-business-items c-b-i-1 bg-red-500">
+          <div className="contact-business-grid  ">
+            <div className="contact-business-items c-b-i-1 ">
               <i className="fa-solid-contact fa-solid fa-phone text-[white] text-[72px]"></i>
               <div>
                 <h6>georgia.young@example.com</h6>
@@ -70,7 +53,7 @@ export default function Contact() {
               <h5 className="font-bold"> Get Support</h5>
               <button className="contact-btn">Submit</button>
             </div>
-            <div className="contact-business-items c-b-i-2 bg-purple-200">
+            <div className="contact-business-items c-b-i-2 ">
               <i className="fa-solid-contact text-white text-[72px] fa-solid fa-location-dot"></i>
               <div>
                 <h6>georgia.young@example.com</h6>
@@ -79,7 +62,7 @@ export default function Contact() {
               <h5 className="font-bold"> Get Support</h5>
               <button className="contact-btn">Submit</button>
             </div>
-            <div className="contact-business-items c-b-i-3 bg-green-200">
+            <div className="contact-business-items c-b-i-3 ">
               <i className="fa-solid-contact text-white text-[72px] fa-solid fa-message"></i>
               <div>
                 <h6>georgia.young@example.com</h6>
@@ -91,10 +74,10 @@ export default function Contact() {
           </div>
         </div>
 
-        <div className="bg-blue-900 max-w-[1040px] h-[400px] m-auto">
+        <div className="arr-div  max-w-[1040px] h-[400px] m-auto">
           <div>
-            <div className="bg-purple-600 text-center h-[auto] ">
-              <div className=" text-center flex justify-center bg-red-400">
+            <div className=" text-center h-[auto] ">
+              <div className=" text-center flex justify-center ">
                 <svg
                   width="62"
                   height="62"
@@ -108,7 +91,7 @@ export default function Contact() {
                   />
                 </svg>
               </div>
-              <div className="bg-yellow-300 py-[40px]">
+              <div className=" py-[40px]">
                 <h5 className=" text-[#252B42] font-bold text-[16px]">
                   WE Can't WAIT TO MEET YOU
                 </h5>

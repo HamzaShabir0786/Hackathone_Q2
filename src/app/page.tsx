@@ -4,10 +4,12 @@ import FeaturedProducts from "./featuredProducts/page";
 import VitalClassic from "./vitalClassic/page";
 import Fluid from "./containerFluid/page";
 import FeaturedPost from "./featuredPost/page";
+import Header from "./components/Header/Header";
 
 export default function Home() {
   return (
     <>
+      <Header />
       <div className="max-w-[1440px] h-[750px] bg-green-900  m-auto landing-home">
         <div className="max-w-[1044px] m-auto  h-[651px]  flex items-center">
           <div className="max-w-[599px] max-h-[331px] gap-[35px]    flex px-4  flex-col justify-between">
@@ -28,11 +30,11 @@ export default function Home() {
           </div>
         </div>
       </div>
-        <Desktop2 />
-        <FeaturedProducts />
-        <VitalClassic />
-        <Fluid />
-        <FeaturedPost />
+      <Desktop2 />
+      <FeaturedProducts />
+      <VitalClassic />
+      <Fluid />
+      <FeaturedPost />
     </>
   );
 }

@@ -1,3 +1,4 @@
+import Link from "next/link";
 export default function Header() {
   return (
     <>
@@ -37,11 +38,19 @@ export default function Header() {
             <h3 className="font-bold text-[24px]">Bandage</h3>
           </div>
           <div className="li-div-nav flex list-none font-bold gap-[15px] text-[#737373] text-[13px]">
-            <li>Home</li>
+            <li>
+              <Link href={"/"} target={"_blank"}>
+                Home
+              </Link>
+            </li>
             <li>Shop</li>
             <li>About</li>
             <li>Blog</li>
-            <li>Contact</li>
+            <li>
+              <Link href={"/contact"} target={"_blank"}>
+                Contact
+              </Link>
+            </li>
             <li>Pages</li>
           </div>
 
