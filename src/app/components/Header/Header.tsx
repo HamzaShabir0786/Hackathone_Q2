@@ -1,4 +1,5 @@
 import Link from "next/link";
+import ResponsiveNav from "../responsive-nav/responsiveNav";
 export default function Header() {
   return (
     <>
@@ -33,6 +34,7 @@ export default function Header() {
             </div>
           </div>
         </div>
+
         <div className="child-nav-2  px-4 h-[4rem] flex items-center justify-between">
           <div>
             <h3 className="font-bold text-[24px]">Bandage</h3>
@@ -74,6 +76,7 @@ export default function Header() {
             </div>
           </div>
         </div>
+        <ResponsiveNav />
       </nav>
     </>
   );

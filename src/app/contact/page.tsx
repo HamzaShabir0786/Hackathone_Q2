@@ -3,11 +3,11 @@ import Nav2 from "../components/nav2/nav2";
 export default function Contact() {
   return (
     <>
-      <div className="max-w-[1440px] h-auto  m-auto">
+      <div className="max-w-[1440px] h-auto  m-auto ">
         <Nav2 />
         <div className="home-contact  max-w-[1440px] h-[750px] py-[80px] m-auto px-2">
           <div className=" grid-contact-home">
-            <div className="flex-contact-child-1  flex flex-col justify-around w-[100%]   ">
+            <div className="flex-contact-child-1 flex flex-col justify-center items-start gap-7 w-[100%]   ">
               <h5 className="font-bold text-[16px] text-[#252B42]">
                 CONTACT US
               </h5>
