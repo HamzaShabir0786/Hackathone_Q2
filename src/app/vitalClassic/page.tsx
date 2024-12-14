@@ -10,7 +10,7 @@ export default function VitalClassic() {
         </div>
       </div> */}
       <div className="max-w-[1440px] h-[auto] m-auto bg-[#23856d]  px-2 py-[80px] ">
-        <div className="vital-flex  ">
+        <div className="vital-flex   ">
           <div className="vital-flex-1 h-[500px]  ">
             <div className="w-[auto] h-[100%] flex flex-col  justify-end ">
               <h5 className="text-white font-bold text-[16px] ">Summer 2024</h5>
@@ -23,7 +23,7 @@ export default function VitalClassic() {
                   will act, We know
                 </h4>
               </div>
-              <div className="flex  mt-4 ">
+              <div className="flex vital-btn-div mt-4 ">
                 <div className="flex justify-center items-center">
                   <h3 className="text-[24px] font-bold text-white px-4 cursor-pointer">
                     $16.48

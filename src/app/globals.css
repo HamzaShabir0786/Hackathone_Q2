@@ -225,23 +225,14 @@
 }
 /* vital classic start from here */
 .vital-flex {
-  display: flex;
-  justify-content: space-between;
-  max-width: 1144px;
-  margin: auto;
-  height: auto;
-
-  gap: 10px;
+  @apply flex justify-between max-w-[1144px] m-auto h-auto gap-[10px];
 }
 
 .vital-flex h1 {
-  font-size: 58px;
-  font-weight: 700;
-  color: #fafafa;
+  @apply text-[58px] font-bold text-white;
 }
 .vital-flex-1 {
-  width: 50%;
-  height: 500px;
+  @apply w-[50%] h-[500px];
 }
 
 .vital-flex-2 {
@@ -256,8 +247,7 @@
 
 /* fluid flex start from here */
 .fluid-flex {
-  padding: 2px;
-  display: flex;
+  @apply p-[2px] flex;
 }
 /* fluid flex end from here */
 /* nav for responsive  */
@@ -784,6 +774,12 @@
   .l-info-div button {
     @apply m-auto;
   }
+  .vital-flex-1 {
+    @apply py-4;
+  }
+  .vital-btn-div {
+    @apply pb-3;
+  }
 }
 @media (max-width: 320px) {
   .landing-home {
@@ -794,5 +790,10 @@
     width: auto;
     gap: 20px;
     font-size: 1.2rem;
+  }
+}
+@media (max-width: 330px) {
+  .fluid-btn-div {
+    @apply px-[10px];
   }
 }

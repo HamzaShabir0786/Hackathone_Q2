@@ -6,20 +6,20 @@ export default function Fluid() {
           <div className="h-[500px] w-[50%]   gap-[30px]   fluid-landing fluid-flex-1"></div>
 
           <div className=" h-[500px] w-[50%]   fluid-flex-2 ">
-            <div className="w-[100%] h-[500px] gap-[35px]  flex flex-col justify-end   ">
+            <div className="w-[100%] h-[500px]  gap-[35px]  flex flex-col justify-end   ">
               <h5 className="text-[#BDBDBD] font-bold text-[16px]">
                 Summer 2024
               </h5>
               <h1 className="font-weight text-[58px] font-bold text-black">
                 New Collection
               </h1>
-              <div className="w-[376px] h-[60px] ">
+              <div className="max-w-[376px] h-[60px] ">
                 <h4 className=" font-[700px]  text-[20px] leading-[30px] text-[#737373]">
                   We know how large objects will act, but things on a small
                   scale.
                 </h4>
               </div>
-              <div className=" py-[15px] px-[40px] gap-[10px]  flex">
+              <div className="fluid-btn-div py-[15px] px-[40px]  gap-[10px]  flex">
                 <button className="w-[156px] h-[58px] text-white font-bold rounded-[5px] bg-[#2DC071]">
                   BUY NOW
                 </button>

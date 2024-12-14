@@ -66,7 +66,7 @@ export default function Footer() {
             </div>
           </div>
           <div>
-            <h6 className="text-[#737373] font-bold py-[40px]  text-center">
+            <h6 className="text-[#737373]  font-bold py-[40px]  text-center">
               Made With Love By Hamza Shabbir All Right Reserved{" "}
             </h6>
           </div>
