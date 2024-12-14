@@ -250,6 +250,7 @@
   @apply p-[2px] flex;
 }
 /* fluid flex end from here */
+
 /* nav for responsive  */
 .responsive-div-icons {
   display: none;
@@ -427,7 +428,63 @@
 .l-info-div button {
   @apply w-[10rem] font-bold hover:bg-[#2A7Cf9];
 }
-/* about page css end here */
+/* about page end */
+/* pricing page start */
+.grid-pricing {
+  display: grid;
+  gap: 40px;
+  grid-template-columns: repeat(3, minmax(300px, 1fr));
+  grid-template-rows: repeat(1, minmax(400px, 410px));
+  grid-auto-rows: minmax(300px, 310px);
+  justify-content: center;
+}
+.text-grid-pricing {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(300px, 1fr));
+  grid-template-rows: repeat(3, minmax(150px, 160px));
+  grid-auto-rows: minmax(150px, 160px);
+  gap: 30px;
+  justify-content: center;
+}
+.text-g-items {
+  padding: 1rem;
+}
+.grid-price-items {
+  transition: all 0.2s linear;
+  border: 2px solid #23a6f0;
+  border-radius: 10px;
+}
+.g-price-i-2,
+.grid-price-items:hover {
+  background-color: #252b42;
+  transform: scale(1.04);
+}
+.g-price-i-1:hover h3,
+.g-price-i-1:hover h5,
+.g-price-i-1:hover h6 {
+  color: #fff;
+}
+.g-price-i-3:hover h3,
+.g-price-i-3:hover h5,
+.g-price-i-3:hover h6 {
+  color: #fff;
+}
+.p-icons {
+  font-size: 2rem;
+}
+.p-i-tiwtter {
+  @apply text-[#23A6F0];
+}
+.p-i-facebook {
+  @apply text-[#395185];
+}
+.p-i-instagram {
+  @apply text-[black];
+}
+.p-i-linkedin {
+  @apply text-[#0A66C2];
+}
+/* pricing page end */
 @media (max-width: 1062px) {
   .feature-grid {
     grid-template-columns: repeat(auto-fill, minmax(238px, 1fr));
@@ -497,6 +554,11 @@
   .grid-team {
     grid-template-columns: repeat(auto-fill, minmax(290px, 1fr));
   }
+  .grid-pricing {
+    gap: 20px;
+    grid-template-columns: repeat(auto-fill, minmax(290px, 1fr));
+    grid-auto-rows: minmax(auto, auto);
+  }
 }
 @media (max-width: 940px) {
   .follow-us-nav h6 {
@@ -559,6 +621,13 @@
   }
   .ul-div ul li {
     @apply text-[#737373] font-bold text-[12px];
+  }
+  .text-grid-pricing {
+    grid-template-columns: repeat(auto-fill, minmax(290px, 1fr));
+
+    grid-auto-rows: minmax(auto, auto);
+    gap: 30px;
+    grid-template-rows: repeat(3, minmax(auto, auto));
   }
 }
 @media (max-width: 817px) {
@@ -726,6 +795,12 @@
     background-position-x: 55rem;
     /* background-position: center; */
   }
+  .simple-pricing {
+    @apply text-[48px];
+  }
+  .pricing-h5 {
+    @apply text-[20px];
+  }
 }
 
 @media (max-width: 430px) {
@@ -779,6 +854,17 @@
   }
   .vital-btn-div {
     @apply pb-3;
+  }
+  .monthly-div {
+    @apply gap-2;
+  }
+}
+@media (max-width: 390px) {
+  .simple-pricing {
+    @apply text-[40px];
+  }
+  .pricing-h5 {
+    @apply text-[17px];
   }
 }
 @media (max-width: 320px) {

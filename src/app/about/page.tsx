@@ -1,4 +1,5 @@
 import Nav2 from "../components/nav2/nav2";
+import CompaniesLogo from "../components/Companies-logo/companies-logo";
 
 export default function About() {
   return (
@@ -148,7 +149,7 @@ export default function About() {
               realms of Classical physics: Newtonian mechanics{" "}
             </p>
           </div>
-          <div className=" px-2 h-auto company-grid">
+          {/* <div className=" px-2 h-auto bg-red-500 company-grid">
             <div className="companies company-1 ">
               <i className="fa-brands fa-brands-companies fa-hooli"></i>
             </div>
@@ -167,7 +168,8 @@ export default function About() {
             <div className="companies company-6 ">
               <i className="fa-brands fa-brands-companies fa-reddit-alien"></i>
             </div>
-          </div>
+          </div> */}
+          <CompaniesLogo />
         </div>
         <div className="about-last-grid max-w-[1440px]  h-[750px]">
           <div className="bg-[#2A7CC7] about-l-1">
