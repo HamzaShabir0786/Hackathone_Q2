@@ -189,8 +189,7 @@
   display: grid;
   /* width: 1050px; */
   height: auto;
-  grid-template-columns: repeat(6, minmax(148px, 1fr));
-
+  grid-template-columns: repeat(6, minmax(128px, 1fr));
   grid-template-rows: repeat(1, minmax(165px, 165px));
   grid-auto-rows: 165px;
   gap: 5px;
@@ -337,9 +336,9 @@
 /* about page's css start from here */
 .about-grid {
   display: grid;
-  grid-template-columns: repeat(2, minmax(400px, 1fr));
+  grid-template-columns: repeat(2, minmax(320px, 1fr));
   grid-template-rows: repeat(1, minmax(700px, 1fr));
-  grid-auto-rows: minmax(400, 410px);
+  grid-auto-rows: minmax(700, 1fr);
   gap: 10px;
 }
 .about-grid-2 {
@@ -347,41 +346,36 @@
   @apply bg-no-repeat bg-center bg-contain;
 }
 .flex-about-problems {
-  display: flex;
-  width: 100%;
-  height: 210px;
-  gap: 60px;
+  @apply flex w-[100%] h-[210px] gap-[50px];
 }
 .flex-p-1 {
-  width: 40%;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
+  @apply w-[40%] flex flex-col justify-around;
 }
 .flex-p-2 {
-  width: 60%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+  @apply w-[60%] flex flex-col justify-center;
 }
 .progress-div {
   display: grid;
-  grid-template-columns: repeat(4, minmax(150px, 1fr));
+  grid-template-columns: repeat(4, minmax(180px, 1fr));
+  grid-template-rows: repeat(1, minmax(150px, auto));
+  grid-auto-rows: minmax(150px, auto);
+  gap: 10px;
 }
 .grid-team {
-  height: 500px;
   max-width: 1040px;
+  height: auto;
   display: grid;
+  margin-top: 4rem;
   grid-template-columns: repeat(3, minmax(310px, 1fr));
-  grid-template-rows: repeat(2, minmax(350px, 355px));
-  grid-auto-rows: minmax(200px, 1fr);
-  background-color: blue;
+  grid-template-rows: repeat(1, minmax(500px, 510px));
+  grid-auto-rows: minmax(500px, 510px);
   gap: 20px;
 }
 .g-n-t-all-01 {
   height: 60%;
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
 }
 .g-n-t-all-02 {
   height: 40%;
@@ -406,15 +400,42 @@
 .g-n-t-01-3 {
   background-image: url("/images/t-m-3.jpg");
 }
-.fa-brands-companies {
-}
+
 .company-grid {
+  height: auto;
   display: grid;
-  grid-template-columns: repeat(6, minmax(auto, auto));
-  grid-template-rows: repeat(1, minmax(auto, auto));
-  grid-auto-rows: auto;
-}.company-info-div{
-  background-color: aqua;
+  grid-template-columns: repeat(6, minmax(150px, 1fr));
+  grid-template-rows: repeat(1, minmax(200px, 210px));
+  grid-auto-rows: minmax(200px, 210px);
+  gap: 20px;
+}
+
+.company-grid .companies {
+  @apply flex justify-center items-center text-[#737373] font-bold text-[100px];
+  transform: translate(-20%);
+}
+.company-grid .companies i {
+  @apply text-[#737373];
+}
+.about-last-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(320px, 1fr));
+  grid-template-rows: repeat(1, minmax(400px, 1fr));
+  grid-auto-rows: minmax(400px, 410px);
+}
+.about-l-2 {
+  background-image: url("/images/about-last.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.about-l-1 {
+  @apply flex justify-center items-center;
+}
+.l-info-div {
+  @apply bg-[#2A7CC7] w-[440px] h-[auto] gap-5 flex flex-col;
+}
+.l-info-div button {
+  @apply w-[10rem] font-bold hover:bg-[#2A7Cf9];
 }
 /* about page css end here */
 @media (max-width: 1062px) {
@@ -431,7 +452,7 @@
     height: auto;
   }
   .footer-div {
-    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
     row-gap: 50px;
     height: auto;
   }
@@ -469,6 +490,9 @@
     grid-auto-rows: minmax(400px, 410px);
     @apply mt-[4rem] gap-[2rem];
   }
+  .company-grid {
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  }
 }
 @media (max-width: 1050px) {
   .vital-grid h1 {
@@ -479,6 +503,9 @@
 @media (max-width: 1024px) {
   .landing-home {
     background-position: center;
+  }
+  .grid-team {
+    grid-template-columns: repeat(auto-fill, minmax(290px, 1fr));
   }
 }
 @media (max-width: 940px) {
@@ -610,14 +637,33 @@
   }
   .grid-contact-home {
     grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
-    /* grid-template-rows: repeat(1, minmax(600px, 610px));
-    gap: 20px; */
+  }
+  .about-last-grid {
+    display: grid;
+    grid-template-columns: repeat(1, minmax(320px, 1fr));
+
+    height: 500px;
+  }
+  .about-l-2 {
+    display: none;
+  }
+  .l-info-div {
+    @apply w-[320px] h-[auto] gap-5 flex flex-col;
+  }
+  .about-l-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 }
 @media (max-width: 768px) {
   .landing-home {
     /* background-position-x: 50rem; */
     background-position: center;
+  }
+  .progress-div {
+    grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+    text-align: center;
   }
 }
 @media (max-width: 700px) {
@@ -641,6 +687,43 @@
   }
   .child-nav-2 {
     display: none;
+  }
+  .about-grid {
+    @apply px-2;
+    grid-template-columns: repeat(auto-fill, minmax(290px, 1fr));
+    grid-template-rows: repeat(1, minmax(400px, 1fr));
+    grid-auto-rows: minmax(400px, 1fr);
+    gap: 60px;
+  }
+  .about-grid-1 {
+    @apply items-center;
+  }
+  .flex-about-problems {
+    @apply h-auto flex-col items-center gap-[10px];
+  }
+  .flex-p-1 {
+    @apply text-center;
+  }
+  .flex-p-1 {
+    width: 80%;
+    /* display: flex;
+    flex-direction: column;
+    justify-content: space-around; */
+  }
+  .flex-p-2 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .flex-p-2 p {
+    text-align: center;
+  }
+  .info {
+    @apply w-[90%];
+  }
+  .company-info-div {
+    @apply w-[90%];
   }
 }
 @media (max-width: 523px) {
@@ -678,14 +761,35 @@
   .flex-contact-child-1 h3 {
     @apply text-[20px];
   }
+  .about-grid .about-grid-1 h5 {
+    @apply text-[20px];
+  }
+  .about-grid .about-grid-1 h1 {
+    @apply text-[48px];
+  }
+  .about-grid .about-grid-1 h4 {
+    @apply text-[18px];
+  }
+  .get-in-touch input {
+    @apply w-[75%];
+  }
+  .about-last-grid {
+    display: grid;
+    grid-template-columns: repeat(1, minmax(280px, 1fr));
+  }
+  .l-info-div {
+    gap: 70px;
+    @apply text-center;
+  }
+  .l-info-div button {
+    @apply m-auto;
+  }
 }
 @media (max-width: 320px) {
   .landing-home {
     background-position-x: 48rem;
   }
-  body {
-    padding: 3px;
-  }
+
   .responsive-div-icons .flex-icons-div {
     width: auto;
     gap: 20px;

@@ -2,7 +2,7 @@ export default function Footer() {
   return (
     <>
       <div className=" max-w-[1440px]  m-auto">
-        <div className=" max-w-[1040px] m-auto px-2 pt-[40px]">
+        <div className=" max-w-[1040px] m-auto px-2  pt-[40px]">
           <div className="py-[40px] footer-heading flex justify-between  bg-slate-50 px-2">
             <div>
               <h3 className="font-bold text-[24px]">Bandage</h3>
@@ -50,7 +50,7 @@ export default function Footer() {
                 <li>Blog</li>
               </ul>
             </div>
-            <div className=" get-in-touch">
+            <div className=" get-in-touch ">
               <h5 className="footer-h5">Get In Touch</h5>
               <div className="flex mt-4">
                 <input

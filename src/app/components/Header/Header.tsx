@@ -46,7 +46,11 @@ export default function Header() {
               </Link>
             </li>
             <li>Shop</li>
-            <li>About</li>
+            <li>
+              <Link href={"/about"} target={"_blank"}>
+                About
+              </Link>
+            </li>
             <li>Blog</li>
             <li>
               <Link href={"/contact"} target={"_blank"}>
