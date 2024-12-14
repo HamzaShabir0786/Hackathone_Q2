@@ -14,8 +14,12 @@ export default function Nav2() {
                 </Link>
               </li>
               <li>Product</li>
-              <li>Pricing</li>
-              <li>Contact</li>
+              <Link href="/pricing" target="_blank">
+                <li>Pricing</li>
+              </Link>
+              <Link href="/contact" target="_blank">
+                <li>Contact</li>
+              </Link>
             </ul>
           </div>
           <div className="contact-btns-div">
