@@ -1,4 +1,5 @@
 import Header from "../components/Header/Header";
+import CompaniesLogo from "../components/Companies-logo/companies-logo";
 
 export default function Product1() {
   return (
@@ -160,6 +161,170 @@ export default function Product1() {
               </div>
             </div>
           </div>
+        </div>
+        <div className="max-w-[1140px] py-[80px] m-auto px-2 h-[auto] ">
+          <div className="pb-[40px]">
+            <h3 className="best-product-h3 text-[#252B42 text-[24px] font-bold">
+              BESTSELLER PRODUCTS
+            </h3>
+          </div>
+          <div className=" best-product-grid ">
+            <div className="best-items best-i-1 ">
+              <div className=" h-[70%] best-n-all-1 best-n-1-1"></div>
+              <div className=" h-[30%] flex flex-col items-center justify-around">
+                <h5 className="text-[16px] font-bold text-[#252B42]">
+                  Graphic Design
+                </h5>
+                <a href="#" className="text-[14px] font-bold text-[#737373]">
+                  English Department
+                </a>
+                <div className="flex gap-4">
+                  <span className="text-[#BDBDBD] font-bold text-[16px]">
+                    $16.48
+                  </span>
+                  <span className="text-[#23856D] font-bold text-[16px]">
+                    $6.48
+                  </span>
+                </div>
+              </div>
+            </div>
+            <div className="best-items best-i-2 ">
+              <div className=" h-[70%] best-n-all-1 best-n-1-2"></div>
+              <div className=" h-[30%] flex flex-col items-center justify-around">
+                <h5 className="text-[16px] font-bold text-[#252B42]">
+                  Graphic Design
+                </h5>
+                <a href="#" className="text-[14px] font-bold text-[#737373]">
+                  English Department
+                </a>
+                <div className="flex gap-4">
+                  <span className="text-[#BDBDBD] font-bold text-[16px]">
+                    $16.48
+                  </span>
+                  <span className="text-[#23856D] font-bold text-[16px]">
+                    $6.48
+                  </span>
+                </div>
+              </div>
+            </div>
+            <div className="best-items best-i-3 ">
+              <div className=" h-[70%] best-n-all-1 best-n-1-3"></div>
+              <div className=" h-[30%] flex flex-col items-center justify-around">
+                <h5 className="text-[16px] font-bold text-[#252B42]">
+                  Graphic Design
+                </h5>
+                <a href="#" className="text-[14px] font-bold text-[#737373]">
+                  English Department
+                </a>
+                <div className="flex gap-4">
+                  <span className="text-[#BDBDBD] font-bold text-[16px]">
+                    $16.48
+                  </span>
+                  <span className="text-[#23856D] font-bold text-[16px]">
+                    $6.48
+                  </span>
+                </div>
+              </div>
+            </div>
+            <div className="best-items best-i-4 ">
+              <div className=" h-[70%] best-n-all-1 best-n-1-4"></div>
+              <div className=" h-[30%] flex flex-col items-center justify-around">
+                <h5 className="text-[16px] font-bold text-[#252B42]">
+                  Graphic Design
+                </h5>
+                <a href="#" className="text-[14px] font-bold text-[#737373]">
+                  English Department
+                </a>
+                <div className="flex gap-4">
+                  <span className="text-[#BDBDBD] font-bold text-[16px]">
+                    $16.48
+                  </span>
+                  <span className="text-[#23856D] font-bold text-[16px]">
+                    $6.48
+                  </span>
+                </div>
+              </div>
+            </div>
+            <div className="best-items best-i-5 ">
+              <div className=" h-[70%] best-n-all-1 best-n-1-5"></div>
+              <div className=" h-[30%] flex flex-col items-center justify-around">
+                <h5 className="text-[16px] font-bold text-[#252B42]">
+                  Graphic Design
+                </h5>
+                <a href="#" className="text-[14px] font-bold text-[#737373]">
+                  English Department
+                </a>
+                <div className="flex gap-4">
+                  <span className="text-[#BDBDBD] font-bold text-[16px]">
+                    $16.48
+                  </span>
+                  <span className="text-[#23856D] font-bold text-[16px]">
+                    $6.48
+                  </span>
+                </div>
+              </div>
+            </div>
+            <div className="best-items best-i-6 ">
+              <div className=" h-[70%] best-n-all-1 best-n-1-6"></div>
+              <div className=" h-[30%] flex flex-col items-center justify-around">
+                <h5 className="text-[16px] font-bold text-[#252B42]">
+                  Graphic Design
+                </h5>
+                <a href="#" className="text-[14px] font-bold text-[#737373]">
+                  English Department
+                </a>
+                <div className="flex gap-4">
+                  <span className="text-[#BDBDBD] font-bold text-[16px]">
+                    $16.48
+                  </span>
+                  <span className="text-[#23856D] font-bold text-[16px]">
+                    $6.48
+                  </span>
+                </div>
+              </div>
+            </div>
+            <div className="best-items best-i-7 ">
+              <div className=" h-[70%] best-n-all-1 best-n-1-7"></div>
+              <div className=" h-[30%] flex flex-col items-center justify-around">
+                <h5 className="text-[16px] font-bold text-[#252B42]">
+                  Graphic Design
+                </h5>
+                <a href="#" className="text-[14px] font-bold text-[#737373]">
+                  English Department
+                </a>
+                <div className="flex gap-4">
+                  <span className="text-[#BDBDBD] font-bold text-[16px]">
+                    $16.48
+                  </span>
+                  <span className="text-[#23856D] font-bold text-[16px]">
+                    $6.48
+                  </span>
+                </div>
+              </div>
+            </div>
+            <div className="best-items best-i-8 ">
+              <div className=" h-[70%] best-n-all-1 best-n-1-8"></div>
+              <div className=" h-[30%] flex flex-col items-center justify-around">
+                <h5 className="text-[16px] font-bold text-[#252B42]">
+                  Graphic Design
+                </h5>
+                <a href="#" className="text-[14px] font-bold text-[#737373]">
+                  English Department
+                </a>
+                <div className="flex gap-4">
+                  <span className="text-[#BDBDBD] font-bold text-[16px]">
+                    $16.48
+                  </span>
+                  <span className="text-[#23856D] font-bold text-[16px]">
+                    $6.48
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="max-w-[1040px] m-auto">
+          <CompaniesLogo />
         </div>
       </div>
     </>
