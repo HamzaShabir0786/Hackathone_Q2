@@ -1,10 +1,12 @@
 import Link from "next/link";
 import ResponsiveNav from "../responsive-nav/responsiveNav";
-export default function Header() {
+export default function Header({ bgColor = "bg-[#252B42]" }) {
   return (
     <>
-      <nav className="nav-con  bg-sky-100 max-w-[1440px] m-auto ">
-        <div className="child-nav-1    h-[3rem]  flex items-center justify-between px-4 text-white bg-[#252B42]   ">
+      <nav className="nav-con  max-w-[1440px] m-auto ">
+        <div
+          className={`child-nav-1    h-[3rem]  flex items-center justify-between px-4 text-white ${bgColor}`}
+        >
           <div className="flex justify-between ">
             <div className=" flex items-center gap-6 h-[46px] font-bold text-[14px] px-2">
               <div className="number-nav flex gap-6 items-center">

@@ -268,7 +268,7 @@
 .ul-div ul {
   @apply flex gap-[30px];
 }
-.ul-div ul li {
+.ul-div ul a {
   @apply text-[#737373] font-bold text-[14px];
 }
 .contact-btns-div {
@@ -485,6 +485,87 @@
   @apply text-[#0A66C2];
 }
 /* pricing page end */
+
+/* product  1 page */
+.product-1-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(400px, 510px));
+  grid-template-rows: repeat(1, minmax(400px, 550px));
+  grid-auto-rows: minmax(400px, 410px);
+  gap: 50px;
+}
+.product-pic-div {
+  background-image: url("/images/product1-bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.next-img-parent {
+  display: flex;
+  height: 75px;
+  width: 12rem;
+  gap: 20px;
+  margin-top: 1.8rem;
+}
+.next-img-div-1 {
+  width: 50%;
+  background-image: url("/images/product2-bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.next-img-div-2 {
+  width: 50%;
+  background-image: url("/images/product1-bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.para-div-prodcut-1 {
+  padding: 1rem;
+}
+.para-div-prodcut-1 hr {
+  width: 100%;
+  border: none;
+  border-top: 1px solid #bdbdbd;
+  margin: 10px 0;
+}
+.span-roll-div {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+.span-roll-div span {
+  height: 2.5rem;
+  width: 2.5rem;
+  display: block;
+  border-radius: 50%;
+}
+.span-roll-div .span-1 {
+  background-color: #23a6f0;
+}
+.span-roll-div .span-2 {
+  background-color: #2dc071;
+}
+.span-roll-div .span-3 {
+  background-color: #e77c40;
+}
+.span-roll-div .span-4 {
+  background-color: #252b42;
+}
+.buy-heart-eye-icons-div {
+  display: flex;
+  gap: 15px;
+
+  width: auto;
+}
+.buy-heart-eye-icons-div i {
+  padding: 0.7rem;
+  border-radius: 50%;
+  border: 1px solid #737373;
+  cursor: pointer;
+}
+/* product 1 page end */
 @media (max-width: 1062px) {
   .feature-grid {
     grid-template-columns: repeat(auto-fill, minmax(238px, 1fr));
@@ -587,6 +668,12 @@
   }
   .li-div-nav {
     @apply px-1 gap-[10px] text-[12px];
+  }
+  .product-1-grid {
+    grid-template-columns: repeat(auto-fill, minmax(290px, 1fr));
+    /* grid-template-rows: repeat(1, minmax(400px, 550px));
+    grid-auto-rows: minmax(400px, 410px); */
+    gap: 30px;
   }
 }
 @media (max-width: 850px) {
