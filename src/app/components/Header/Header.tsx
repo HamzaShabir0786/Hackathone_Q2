@@ -53,7 +53,11 @@ export default function Header({ bgColor = "bg-[#252B42]" }) {
                 About
               </Link>
             </li>
-            <li>Blog</li>
+            <li>
+              <Link href={"/innovation"} target={"_blank"}>
+                Blog
+              </Link>
+            </li>
             <li>
               <Link href={"/contact"} target={"_blank"}>
                 Contact
