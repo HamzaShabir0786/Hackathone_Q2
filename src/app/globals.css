@@ -565,6 +565,21 @@
   border: 1px solid #737373;
   cursor: pointer;
 }
+.grid-info-product-1 {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(290px, 1fr));
+  grid-template-rows: repeat(1, minmax(435px, 450px));
+  grid-auto-rows: minmax(435px, 450px);
+  gap: 30px;
+  height: auto;
+  justify-content: center;
+}
+
+.g-i-product-1 {
+  background-image: url("/images/info-p-1.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 /* product 1 page end */
 @media (max-width: 1062px) {
   .feature-grid {
@@ -641,6 +656,14 @@
     grid-auto-rows: minmax(auto, auto);
   }
 }
+@media (max-width: 970px) {
+  .grid-info-product-1 {
+    grid-template-columns: repeat(auto-fill, minmax(290px, 1fr));
+    grid-template-rows: repeat(1, minmax(435px, 450px));
+    grid-auto-rows: minmax(435px, 450px);
+    gap: 40px;
+  }
+}
 @media (max-width: 940px) {
   .follow-us-nav h6 {
     @apply text-[12px];
@@ -671,8 +694,6 @@
   }
   .product-1-grid {
     grid-template-columns: repeat(auto-fill, minmax(290px, 1fr));
-    /* grid-template-rows: repeat(1, minmax(400px, 550px));
-    grid-auto-rows: minmax(400px, 410px); */
     gap: 20px;
   }
   .grid-child-inner-1 {
@@ -959,7 +980,11 @@
   .pricing-h5 {
     @apply text-[17px];
   }
+  .addtional-info-product-1-div {
+    @apply text-[12px];
+  }
 }
+
 @media (max-width: 320px) {
   .landing-home {
     background-position-x: 48rem;
@@ -974,5 +999,8 @@
 @media (max-width: 330px) {
   .fluid-btn-div {
     @apply px-[10px];
+  }
+  .addtional-info-product-1-div {
+    @apply text-[10px];
   }
 }

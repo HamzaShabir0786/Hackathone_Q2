@@ -16,7 +16,7 @@ export default function Product1() {
             <li className="font-bold text-[14px]  text-[#737373]">Pricing</li>
           </ul>
         </div>
-        <div className="product-1-grid px-2 h-auto">
+        <div className="product-1-grid px-2  pb-[80px]  h-auto">
           <div>
             <div className="product-pic-div h-[80%] w-auto "></div>
             <div className="next-img-parent">
@@ -74,6 +74,88 @@ export default function Product1() {
                   <i className="fa-regular fa-heart"></i>
                   <i className="fa-solid fa-cart-shopping"></i>
                   <i className="fa-solid fa-eye"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="max-w-[1050px] m-auto py-[40px] h-[auto]">
+          <div className="addtional-info-product-1-div p-4 text-center max-w-[500px] py-[40px] m-auto flex  justify-between text-[#737373] font-[600] text-[14px]">
+            <a href="#">Descrption</a>
+            <a href="#">Additional Information</a>
+            <a href="#">
+              Reviews <span className="text-[green]">(0)</span>
+            </a>
+          </div>
+          <div className="grid-info-product-1 py-[40px] px-2">
+            <div className="g-i-product-items g-i-product-1"></div>
+            <div className="g-i-product-items g-i-product-2">
+              <div>
+                <h3 className="text-[24px] font-bold text-[#252B42]">
+                  the quick fox jumps over{" "}
+                </h3>
+                <div className="flex flex-col h-[410px] justify-around ">
+                  <p className="text-[14px] font-[500] text-[#737373]">
+                    Met minim Mollie non desert Alamo est sit cliquey dolor do
+                    met sent. RELIT official consequent door ENIM RELIT Mollie.
+                    Excitation venial consequent sent nostrum met.
+                  </p>
+                  <p className="text-[14px] font-[400] text-[#737373]">
+                    Met minim Mollie non desert Alamo est sit cliquey dolor do
+                    met sent. RELIT official consequent door ENIM RELIT Mollie.
+                    Excitation venial consequent sent nostrum met.
+                  </p>
+                  <p className="text-[14px] font-[400] text-[#737373]">
+                    Met minim Mollie non desert Alamo est sit cliquey dolor do
+                    met sent. RELIT official consequent door ENIM RELIT Mollie.
+                    Excitation venial consequent sent nostrum met.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div className="g-i-product-items g-i-product-3">
+              <div className=" h-[440px]">
+                <div className=" h-[50%] flex flex-col justify-around">
+                  <h3 className="text-[24px] font-bold text-[#252B42]">
+                    the quick fox jumps over{" "}
+                  </h3>
+                  <h5 className="text-[14px] font-bold text-[#737373]  flex items-center gap-3">
+                    <i className="fa-solid fa-chevron-right text-[#BDBDBD] text-[20px]"></i>
+                    the quick fox jumps over the lazy dog
+                  </h5>
+                  <h5 className="text-[14px] font-bold text-[#737373]  flex items-center gap-3">
+                    <i className="fa-solid fa-chevron-right text-[#BDBDBD] text-[20px]"></i>
+                    the quick fox jumps over the lazy dog
+                  </h5>
+                  <h5 className="text-[14px] font-bold text-[#737373]  flex items-center gap-3">
+                    <i className="fa-solid fa-chevron-right text-[#BDBDBD] text-[20px]"></i>
+                    the quick fox jumps over the lazy dog
+                  </h5>
+                  <h5 className="text-[14px] font-bold text-[#737373]  flex items-center gap-3">
+                    <i className="fa-solid fa-chevron-right text-[#BDBDBD] text-[20px]"></i>
+                    the quick fox jumps over the lazy dog
+                  </h5>
+                </div>
+                <div className=" h-[50%] flex flex-col justify-around">
+                  <h3 className="text-[24px] font-bold text-[#252B42]">
+                    the quick fox jumps over{" "}
+                  </h3>
+                  <h5 className="text-[14px] font-bold text-[#737373]  flex items-center gap-3">
+                    <i className="fa-solid fa-chevron-right text-[#BDBDBD] text-[20px]"></i>
+                    the quick fox jumps over the lazy dog
+                  </h5>
+                  <h5 className="text-[14px] font-bold text-[#737373]  flex items-center gap-3">
+                    <i className="fa-solid fa-chevron-right text-[#BDBDBD] text-[20px]"></i>
+                    the quick fox jumps over the lazy dog
+                  </h5>
+                  <h5 className="text-[14px] font-bold text-[#737373]  flex items-center gap-3">
+                    <i className="fa-solid fa-chevron-right text-[#BDBDBD] text-[20px]"></i>
+                    the quick fox jumps over the lazy dog
+                  </h5>
+                  <h5 className="text-[14px] font-bold text-[#737373]  flex items-center gap-3">
+                    <i className="fa-solid fa-chevron-right text-[#BDBDBD] text-[20px]"></i>
+                    the quick fox jumps over the lazy dog
+                  </h5>
                 </div>
               </div>
             </div>
