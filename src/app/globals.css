@@ -673,7 +673,10 @@
     grid-template-columns: repeat(auto-fill, minmax(290px, 1fr));
     /* grid-template-rows: repeat(1, minmax(400px, 550px));
     grid-auto-rows: minmax(400px, 410px); */
-    gap: 30px;
+    gap: 20px;
+  }
+  .grid-child-inner-1 {
+    height: 420px;
   }
 }
 @media (max-width: 850px) {
@@ -875,6 +878,9 @@
 @media (max-width: 523px) {
   .d-g-i-3 {
     grid-column: span 1;
+  }
+  .grid-child-inner-1 {
+    height: 450px;
   }
 }
 @media (max-width: 480px) {

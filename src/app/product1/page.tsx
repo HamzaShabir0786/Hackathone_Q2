@@ -17,7 +17,7 @@ export default function Product1() {
           </ul>
         </div>
         <div className="product-1-grid px-2 h-auto">
-          <div className="">
+          <div>
             <div className="product-pic-div h-[80%] w-auto "></div>
             <div className="next-img-parent">
               <div className="next-img-div-1"></div>
@@ -25,7 +25,7 @@ export default function Product1() {
             </div>
           </div>
           <div className=" py-[20px] ">
-            <div className="h-[80%] flex flex-col justify-between">
+            <div className="h-[80%]  grid-child-inner-1 flex flex-col justify-between">
               <h4 className="text-[20px] text-[#252B42]">Floating Phone</h4>
               <div className="flex items-center justify-between w-[215px]    ">
                 <div className="flex gap-x-1">
