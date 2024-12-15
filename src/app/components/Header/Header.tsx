@@ -47,7 +47,11 @@ export default function Header({ bgColor = "bg-[#252B42]" }) {
                 Home
               </Link>
             </li>
-            <li>Shop</li>
+            <li>
+              <Link href={"/shop"} target={"_blank"}>
+                Shop
+              </Link>
+            </li>
             <li>
               <Link href={"/about"} target={"_blank"}>
                 About
