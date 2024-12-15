@@ -60,12 +60,12 @@ export default function Pricing() {
                   <div className="flex justify-center gap-4">
                     <h2 className="text-[40px] font-bold text-[#23A6F0] ">0</h2>
                     <div className="flex flex-col ">
-                      <h3 className="text-[24px] font-bold text-[#23A6F0]">
+                      <span className="text-[24px] font-bold text-[#23A6F0]">
                         $
-                      </h3>
-                      <h6 className="text-[14px] text-[#8EC2F2] font-bold">
+                      </span>
+                      <span className="text-[14px] text-[#8EC2F2] font-bold">
                         Per Month
-                      </h6>
+                      </span>
                     </div>
                   </div>
                   <div className="flex justify-center items-center gap-3  py-4">
@@ -92,12 +92,12 @@ export default function Pricing() {
                       9.99
                     </h2>
                     <div className="flex flex-col ">
-                      <h3 className="text-[24px] font-bold text-[#23A6F0]">
+                      <span className="text-[24px] font-bold text-[#23A6F0]">
                         $
-                      </h3>
-                      <h6 className="text-[14px] text-[#8EC2F2] font-bold">
+                      </span>
+                      <span className="text-[14px] text-[#8EC2F2] font-bold">
                         Per Month
-                      </h6>
+                      </span>
                     </div>
                   </div>
                   <div className="flex justify-center items-center gap-3  py-4">
@@ -124,12 +124,12 @@ export default function Pricing() {
                       19.99
                     </h2>
                     <div className="flex flex-col ">
-                      <h3 className="text-[24px] font-bold text-[#23A6F0]">
+                      <span className="text-[24px] font-bold text-[#23A6F0]">
                         $
-                      </h3>
-                      <h6 className="text-[14px] text-[#8EC2F2] font-bold">
+                      </span>
+                      <span className="text-[14px] text-[#8EC2F2] font-bold">
                         Per Month
-                      </h6>
+                      </span>
                     </div>
                   </div>
                   <div className="flex justify-center items-center gap-3 py-4">

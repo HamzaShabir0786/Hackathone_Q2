@@ -3,7 +3,7 @@ export default function Innovation() {
   return (
     <>
       <Nav2 />
-      <div className="max-w-[1440px] m-auto bg-[wheat] h-[auto]">
+      <div className="max-w-[1440px] m-auto h-[auto]">
         <div className="max-w-[1040px] m-auto flex flex-col justify-between items-center py-[30px] px-2 ">
           <h5 className="text-[16px] font-bold text-[#737373]">WHAT WE DO</h5>
           <h1 className="inno-h1 text-[58px] font-bold text-[#252B42]">
@@ -20,17 +20,196 @@ export default function Innovation() {
             </ul>
           </div>
         </div>
-        <div className="innovation-grid max-w-[1440px] m-auto   py-[40px] h-[auto] px-2">
+        <div className="innovation-grid max-w-[1440px] m-auto  py-[40px] h-[auto] px-2">
           <div className="innovation-items in-i-1"></div>
-          <div className="innovation-items in-i-2flex flex-col gap-4">
+          <div className="innovation-items in-i-2 flex flex-col gap-6">
             <div className="in-02-1 h-[50%]"></div>
             <div className="in-02-2 h-[50%]"></div>
           </div>
-          <div className="innovation-items in-i-3  flex flex-col gap-4">
+          <div className="innovation-items in-i-3  flex flex-col gap-6">
             <div className="in-03-1 h-[50%]"></div>
             <div className="in-03-2 h-[50%]"></div>
           </div>
-          {/* <div className="innovaiton-items in-i-4 bg-purple-300"></div> */}
+        </div>
+        <div className="max-w-[1040px] m-auto  h-auto py-[80px]">
+          <div className="info mb-8  w-[50%] m-auto text-center">
+            <h2 className="text-[40px] text-[#252B42] font-bold">
+              Meet Our Team.{" "}
+            </h2>
+            <p className="text-[14px] font-[400] text-[#737373]">
+              Problems trying to resolve the conflict between the two major
+              realms of Classical physics: Newtonian mechanics{" "}
+            </p>
+          </div>
+
+          <div className="grid-team-inno py-[80px] px-2 gap-y-20 gap-x-8">
+            <div className="g-team-inno-items g-t-inno-i-1">
+              <div className="h-[60%]  t-inno-01 t-inno-01-1"></div>
+              <div className="h-[40%]  t-inno-02 t-inno-02-1 flex flex-col items-center justify-around py-10">
+                <h5 className="font-bold text-[16px] text-[#252B42]">
+                  Username
+                </h5>
+                <h6 className="text-[#737373] text-[14px] font-bold">
+                  Profession
+                </h6>
+                <div className="grid-team-icons-div  ">
+                  <i className="fa-brands fa-brands-team fa-facebook"></i>
+                  <i className="fa-brands fa-brands-team fa-instagram"></i>
+                  <i className="fa-brands fa-brands-team fa-twitter"></i>
+                </div>
+              </div>
+            </div>
+            <div className="g-team-inno-items g-t-inno-i-2">
+              <div className="h-[60%]  t-inno-01 t-inno-01-2"></div>
+              <div className="h-[40%]  t-inno-02 t-inno-02-2 flex flex-col items-center justify-around py-10">
+                <h5 className="font-bold text-[16px] text-[#252B42]">
+                  Username
+                </h5>
+                <h6 className="text-[#737373] text-[14px] font-bold">
+                  Profession
+                </h6>
+                <div className="grid-team-icons-div  ">
+                  <i className="fa-brands fa-brands-team fa-facebook"></i>
+                  <i className="fa-brands fa-brands-team fa-instagram"></i>
+                  <i className="fa-brands fa-brands-team fa-twitter"></i>
+                </div>
+              </div>
+            </div>
+            <div className="g-team-inno-items g-t-inno-i-3">
+              <div className="h-[60%]  t-inno-01 t-inno-01-3"></div>
+              <div className="h-[40%]  t-inno-02 t-inno-02-3 flex flex-col items-center justify-around py-10">
+                <h5 className="font-bold text-[16px] text-[#252B42]">
+                  Username
+                </h5>
+                <h6 className="text-[#737373] text-[14px] font-bold">
+                  Profession
+                </h6>
+                <div className="grid-team-icons-div  ">
+                  <i className="fa-brands fa-brands-team fa-facebook"></i>
+                  <i className="fa-brands fa-brands-team fa-instagram"></i>
+                  <i className="fa-brands fa-brands-team fa-twitter"></i>
+                </div>
+              </div>
+            </div>
+            <div className="g-team-inno-items g-t-inno-i-4">
+              <div className="h-[60%]  t-inno-01 t-inno-01-4"></div>
+              <div className="h-[40%]  t-inno-02 t-inno-02-4 flex flex-col items-center justify-around py-10">
+                <h5 className="font-bold text-[16px] text-[#252B42]">
+                  Username
+                </h5>
+                <h6 className="text-[#737373] text-[14px] font-bold">
+                  Profession
+                </h6>
+                <div className="grid-team-icons-div  ">
+                  <i className="fa-brands fa-brands-team fa-facebook"></i>
+                  <i className="fa-brands fa-brands-team fa-instagram"></i>
+                  <i className="fa-brands fa-brands-team fa-twitter"></i>
+                </div>
+              </div>
+            </div>
+            <div className="g-team-inno-items g-t-inno-i-5">
+              <div className="h-[60%]  t-inno-01 t-inno-01-5"></div>
+              <div className="h-[40%]  t-inno-02 t-inno-02-5 flex flex-col items-center justify-around py-10">
+                <h5 className="font-bold text-[16px] text-[#252B42]">
+                  Username
+                </h5>
+                <h6 className="text-[#737373] text-[14px] font-bold">
+                  Profession
+                </h6>
+                <div className="grid-team-icons-div  ">
+                  <i className="fa-brands fa-brands-team fa-facebook"></i>
+                  <i className="fa-brands fa-brands-team fa-instagram"></i>
+                  <i className="fa-brands fa-brands-team fa-twitter"></i>
+                </div>
+              </div>
+            </div>
+            <div className="g-team-inno-items g-t-inno-i-6">
+              <div className="h-[60%]  t-inno-01 t-inno-01-6"></div>
+              <div className="h-[40%]  t-inno-02 t-inno-02-6 flex flex-col items-center justify-around py-10">
+                <h5 className="font-bold text-[16px] text-[#252B42]">
+                  Username
+                </h5>
+                <h6 className="text-[#737373] text-[14px] font-bold">
+                  Profession
+                </h6>
+                <div className="grid-team-icons-div  ">
+                  <i className="fa-brands fa-brands-team fa-facebook"></i>
+                  <i className="fa-brands fa-brands-team fa-instagram"></i>
+                  <i className="fa-brands fa-brands-team fa-twitter"></i>
+                </div>
+              </div>
+            </div>
+            <div className="g-team-inno-items g-t-inno-i-7">
+              <div className="h-[60%]  t-inno-01 t-inno-01-7"></div>
+              <div className="h-[40%]  t-inno-02 t-inno-02-7 flex flex-col items-center justify-around py-10">
+                <h5 className="font-bold text-[16px] text-[#252B42]">
+                  Username
+                </h5>
+                <h6 className="text-[#737373] text-[14px] font-bold">
+                  Profession
+                </h6>
+                <div className="grid-team-icons-div  ">
+                  <i className="fa-brands fa-brands-team fa-facebook"></i>
+                  <i className="fa-brands fa-brands-team fa-instagram"></i>
+                  <i className="fa-brands fa-brands-team fa-twitter"></i>
+                </div>
+              </div>
+            </div>
+            <div className="g-team-inno-items g-t-inno-i-8">
+              <div className="h-[60%]  t-inno-01 t-inno-01-8"></div>
+              <div className="h-[40%]  t-inno-02 t-inno-02-8 flex flex-col items-center justify-around py-10">
+                <h5 className="font-bold text-[16px] text-[#252B42]">
+                  Username
+                </h5>
+                <h6 className="text-[#737373] text-[14px] font-bold">
+                  Profession
+                </h6>
+                <div className="grid-team-icons-div  ">
+                  <i className="fa-brands fa-brands-team fa-facebook"></i>
+                  <i className="fa-brands fa-brands-team fa-instagram"></i>
+                  <i className="fa-brands fa-brands-team fa-twitter"></i>
+                </div>
+              </div>
+            </div>
+            <div className="g-team-inno-items g-t-inno-i-9">
+              <div className="h-[60%]  t-inno-01 t-inno-01-9"></div>
+              <div className="h-[40%]  t-inno-02 t-inno-02-9 flex flex-col items-center justify-around py-10">
+                <h5 className="font-bold text-[16px] text-[#252B42]">
+                  Username
+                </h5>
+                <h6 className="text-[#737373] text-[14px] font-bold">
+                  Profession
+                </h6>
+                <div className="grid-team-icons-div  ">
+                  <i className="fa-brands fa-brands-team fa-facebook"></i>
+                  <i className="fa-brands fa-brands-team fa-instagram"></i>
+                  <i className="fa-brands fa-brands-team fa-twitter"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="inno-last-div-info max-w-[1040px] m-auto py-[40px] px-2">
+            <div className="flex flex-col items-center justify-between py-[20px] h-[350px]">
+              <h2 className="text-[50px] font-bold text-[#252B42]">
+                Start your 14 days free trial
+              </h2>
+              <div className="max-w-[410px] ">
+                <p className="text-[14px] text-[#737373]">
+                  Met minim Mollie non desert Alamo est sit cliquey dolor do met
+                  sent. RELIT official consequent.
+                </p>
+              </div>
+              <div className="bg-[#23A6F0] cursor-pointer text-white inline-block rounded-lg font-bold  px-[40px] py-[15px] max-[12rem]">
+                Try it for free
+              </div>
+              <div className="pricing-icons w-[250px] text-center flex gap-10  h-[auto]">
+                <i className="p-icons p-i-tiwtter fa-brands fa-twitter"></i>
+                <i className="p-icons p-i-facebook fa-brands fa-facebook"></i>
+                <i className="p-icons p-i-instagram fa-brands fa-instagram"></i>
+                <i className="p-icons p-i-linkedin fa-brands fa-linkedin"></i>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </>

@@ -279,7 +279,7 @@
   @apply text-[#23a6f0] font-bold pr-12;
 }
 .contact-btns-div .member-btn {
-  @apply bg-[#23a6f0] text-white pr-4 pl-4 font-bold rounded-md;
+  @apply bg-[#23a6f0] text-white w-[13rem] pl-4 pr-4 font-bold flex justify-between items-center rounded-md;
 }
 .fa-solid-contact {
   @apply text-[#23a6f0];
@@ -618,6 +618,7 @@
   background-image: url("/images/p1-p2.png");
 }
 /* product 1 page end */
+/* innovation tailor page start */
 .innovation-grid {
   display: grid;
   grid-template-columns: repeat(4, minmax(300px, 1fr));
@@ -662,8 +663,45 @@
   background-size: cover;
   background-position: center;
 }
-/* innovation tailor page start */
-
+.grid-team-inno {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(310px, 1fr));
+  grid-template-rows: repeat(3, minmax(500px, 510px));
+  grid-auto-rows: minmax(500px, 510px);
+}
+.t-inno-01 {
+  background-image: url("/images/t-inno-1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.t-inno-01-1 {
+  background-image: url("/images/t-inno-1.jpg");
+}
+.t-inno-01-2 {
+  background-image: url("/images/t-inno-2.jpg");
+}
+.t-inno-01-3 {
+  background-image: url("/images/t-inno-3.jpg");
+}
+.t-inno-01-4 {
+  background-image: url("/images/t-m-3.jpg");
+}
+.t-inno-01-5 {
+  background-image: url("/images/t-inno-5.jpg");
+}
+.t-inno-01-6 {
+  background-image: url("/images/t-m-1.jpg");
+}
+.t-inno-01-7 {
+  background-image: url("/images/t-m-2.jpg");
+}
+.t-inno-01-8 {
+  background-image: url("/images/t-inno-8.jpg");
+}
+.t-inno-01-9 {
+  background-image: url("/images/t-inno-9.jpg");
+}
 /* innovation tailor page end */
 @media (max-width: 1062px) {
   .feature-grid {
@@ -741,6 +779,11 @@
   .vital-grid h1 {
     font-size: 48px;
     font-weight: 700;
+  }
+  .grid-team-inno {
+    grid-template-columns: repeat(auto-fill, minmax(290px, 1fr));
+    /* grid-template-rows: repeat(3, minmax(500px, 510px));
+    grid-auto-rows: minmax(500px, 510px); */
   }
 }
 @media (max-width: 1024px) {
@@ -1009,6 +1052,14 @@
   .innovation-items {
     @apply gap-2;
   }
+  .inno-last-div-info h2 {
+    @apply text-[40px];
+  }
+}
+@media (max-width: 540px) {
+  .inno-last-div-info h2 {
+    @apply text-[32px];
+  }
 }
 @media (max-width: 523px) {
   .d-g-i-3 {
@@ -1033,7 +1084,6 @@
     @apply text-[20px];
   }
 }
-
 @media (max-width: 430px) {
   .grid-contact-home {
     grid-template-columns: repeat(auto-fill, minmax(310px, 1fr));
