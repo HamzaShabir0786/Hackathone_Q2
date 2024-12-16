@@ -382,15 +382,6 @@
 .grid-team-icons-div i {
   @apply text-[#23A6F0] text-[24px];
 }
-.g-n-t-01-1 {
-  background-image: url("/images/t-m-1.jpg");
-}
-.g-n-t-01-2 {
-  background-image: url("/images/t-m-2.jpg");
-}
-.g-n-t-01-3 {
-  background-image: url("/images/t-m-3.jpg");
-}
 
 .company-grid {
   height: auto;
@@ -675,33 +666,7 @@
   background-size: cover;
   background-position: center;
 }
-.t-inno-01-1 {
-  background-image: url("/images/t-inno-1.jpg");
-}
-.t-inno-01-2 {
-  background-image: url("/images/t-inno-2.jpg");
-}
-.t-inno-01-3 {
-  background-image: url("/images/t-inno-3.jpg");
-}
-.t-inno-01-4 {
-  background-image: url("/images/t-m-3.jpg");
-}
-.t-inno-01-5 {
-  background-image: url("/images/t-inno-5.jpg");
-}
-.t-inno-01-6 {
-  background-image: url("/images/t-m-1.jpg");
-}
-.t-inno-01-7 {
-  background-image: url("/images/t-m-2.jpg");
-}
-.t-inno-01-8 {
-  background-image: url("/images/t-inno-8.jpg");
-}
-.t-inno-01-9 {
-  background-image: url("/images/t-inno-9.jpg");
-}
+
 /* innovation tailor page end */
 /* shope page start */
 .grid-shop {
@@ -747,7 +712,9 @@
   background-size: cover;
   background-position-y: top !important;
 }
-
+/* .special-nav-for-mobile {
+  display: none;
+} */
 /* shope page end */
 @media (max-width: 1062px) {
   .feature-grid {
@@ -1111,6 +1078,9 @@
   .inno-last-div-info h2 {
     @apply text-[40px];
   }
+  .special-nav-for-mobile {
+    /* display: flex; */
+  }
 }
 @media (max-width: 540px) {
   .inno-last-div-info h2 {
@@ -1138,6 +1108,15 @@
   }
   .pricing-h5 {
     @apply text-[20px];
+  }
+  .grid-team-icons-div .fa-facebook {
+    @apply text-[#335BF5];
+  }
+  .grid-team-icons-div .fa-instagram {
+    @apply text-[#E51F5A];
+  }
+  .grid-team-icons-div .fa-twitter {
+    @apply text-[#21A6DF];
   }
 }
 @media (max-width: 430px) {

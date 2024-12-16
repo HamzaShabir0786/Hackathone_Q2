@@ -1,13 +1,13 @@
 import Nav2 from "../components/nav2/nav2";
 import CompaniesLogo from "../components/Companies-logo/companies-logo";
-
+import Data from "../../../public/aboutData.json";
 export default function About() {
   return (
     <>
       <div className="max-w-[1440px] h-auto   m-auto">
         <Nav2 />
 
-        <div className="about-grid  py-[20px]">
+        <div className="about-grid  px-6 py-[20px]">
           <div className="about-grid-1  flex flex-col justify-center items-start gap-10 w-[100%]">
             <h5 className="text-[#252B42] text-[24px] font-bold">
               ABOUT COMPANY
@@ -21,7 +21,7 @@ export default function About() {
               Get Quote Now
             </button>
           </div>
-          <div className="about-grid-2 "></div>
+          <div className="about-grid-2  relative  "></div>
         </div>
 
         <div className="max-w-[1040px] m-auto h-[auto] py-[40px] px-2 ">
@@ -71,12 +71,12 @@ export default function About() {
           </div>
         </div>
 
-        <div className="about-video max-w-[1040px] m-auto mt-4 py-[40px]  h-[auto] ">
+        <div className="about-video max-w-[1040px] m-auto mt-4 py-[40px] px-2  h-[auto] ">
           <video controls autoPlay loop muted>
             <source src="/videos/about-video.mp4" type="video/mp4" />
           </video>
         </div>
-        <div className="grid-div max-w-[1040px] h-auto m-auto py-[80px]">
+        <div className="grid-div max-w-[1040px] h-auto px-2 m-auto py-[80px]">
           <div className="info mb-8  w-[50%] m-auto text-center">
             <h2 className="text-[40px] text-[#252B42] font-bold">
               Meet Our Team.{" "}
@@ -87,59 +87,36 @@ export default function About() {
             </p>
           </div>
 
-          <div className="grid-team">
-            <div className="g-teams g-t-1  ">
-              <div className="g-n-t-all-01 g-n-t-01-1 "></div>
-              <div className="g-n-t-all-02 g-n-t-02-1 ">
-                <h5 className="font-bold text-[16px] text-[#252B42]">
-                  Username
-                </h5>
-                <h6 className="text-[#737373] text-[14px] font-bold">
-                  Profession
-                </h6>
-                <div className="grid-team-icons-div  ">
-                  <i className="fa-brands fa-brands-team fa-facebook"></i>
-                  <i className="fa-brands fa-brands-team fa-instagram"></i>
-                  <i className="fa-brands fa-brands-team fa-twitter"></i>
+          <div className="grid-team ">
+            {Data.map((item, index) => {
+              return (
+                <div className="g-teams g-t-1" key={item.id}>
+                  <div
+                    className="g-n-t-all-01 g-n-t-01-1 "
+                    style={{
+                      backgroundImage: `url(${item.imageSrc})`,
+                    }}
+                  ></div>
+                  <div className="g-n-t-all-02 g-n-t-02-1 ">
+                    <h5 className="font-bold text-[16px] text-[#252B42]">
+                      {item.h5}
+                    </h5>
+                    <h6 className="text-[#737373] text-[14px] font-bold">
+                      {item.h6}
+                    </h6>
+                    <div className="grid-team-icons-div  ">
+                      <i className="fa-brands fa-brands-team fa-facebook"></i>
+                      <i className="fa-brands fa-brands-team fa-instagram"></i>
+                      <i className="fa-brands fa-brands-team fa-twitter"></i>
+                    </div>
+                  </div>
                 </div>
-              </div>
-            </div>
-            <div className="g-teams g-t-2  ">
-              <div className="g-n-t-all-01 g-n-t-01-2 "></div>
-              <div className="g-n-t-all-02 g-n-t-02-2 ">
-                <h5 className="font-bold text-[16px] text-[#252B42]">
-                  Username
-                </h5>
-                <h6 className="text-[#737373] text-[14px] font-bold">
-                  Profession
-                </h6>
-                <div className="grid-team-icons-div  ">
-                  <i className="fa-brands fa-brands-team fa-facebook"></i>
-                  <i className="fa-brands fa-brands-team fa-instagram"></i>
-                  <i className="fa-brands fa-brands-team fa-twitter"></i>
-                </div>
-              </div>
-            </div>
-            <div className="g-teams g-t-3  ">
-              <div className="g-n-t-all-01 g-n-t-01-3 "></div>
-              <div className="g-n-t-all-02 g-n-t-02-3 ">
-                <h5 className="font-bold text-[16px] text-[#252B42]">
-                  Username
-                </h5>
-                <h6 className="text-[#737373] text-[14px] font-bold">
-                  Profession
-                </h6>
-                <div className="grid-team-icons-div  ">
-                  <i className="fa-brands fa-brands-team fa-facebook"></i>
-                  <i className="fa-brands fa-brands-team fa-instagram"></i>
-                  <i className="fa-brands fa-brands-team fa-twitter"></i>
-                </div>
-              </div>
-            </div>
+              );
+            })}
           </div>
         </div>
 
-        <div className="max-w-[1040px] m-auto  py-[80px] ">
+        <div className="max-w-[1040px] m-auto px-2  py-[80px] ">
           <div className="company-info-div py-4 w-[50%] m-auto mb-8 text-center">
             <h1 className="text-[#252B42] font-bold text-[40px]">
               Big Companies Are Here
@@ -149,29 +126,10 @@ export default function About() {
               realms of Classical physics: Newtonian mechanics{" "}
             </p>
           </div>
-          {/* <div className=" px-2 h-auto bg-red-500 company-grid">
-            <div className="companies company-1 ">
-              <i className="fa-brands fa-brands-companies fa-hooli"></i>
-            </div>
-            <div className="companies company-2 ">
-              <i className="fa-brands fa-brands-companies fa-lyft"></i>
-            </div>
-            <div className="companies company-3 ">
-              <i className="fa-brands fa-brands-companies fa-stripe"></i>
-            </div>
-            <div className="companies company-4 ">
-              <i className="fa-brands fa-brands-companies fa-stripe"></i>
-            </div>
-            <div className="companies company-5 ">
-              <i className="fa-brands fa-brands-companies fa-aws"></i>
-            </div>
-            <div className="companies company-6 ">
-              <i className="fa-brands fa-brands-companies fa-reddit-alien"></i>
-            </div>
-          </div> */}
+
           <CompaniesLogo />
         </div>
-        <div className="about-last-grid max-w-[1440px]  h-[750px]">
+        <div className="about-last-grid max-w-[1440px] px-2 h-[750px]">
           <div className="bg-[#2A7CC7] about-l-1">
             <div className="l-info-div">
               <h5 className="text-[16px] font-bold text-white">WORK WITH US</h5>

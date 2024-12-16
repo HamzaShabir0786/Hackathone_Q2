@@ -1,4 +1,5 @@
 import Nav2 from "../components/nav2/nav2";
+import Data from "../../../public/innovationData.json";
 export default function Innovation() {
   return (
     <>
@@ -43,150 +44,31 @@ export default function Innovation() {
           </div>
 
           <div className="grid-team-inno py-[80px] px-2 gap-y-20 gap-x-8">
-            <div className="g-team-inno-items g-t-inno-i-1">
-              <div className="h-[60%]  t-inno-01 t-inno-01-1"></div>
-              <div className="h-[40%]  t-inno-02 t-inno-02-1 flex flex-col items-center justify-around py-10">
-                <h5 className="font-bold text-[16px] text-[#252B42]">
-                  Username
-                </h5>
-                <h6 className="text-[#737373] text-[14px] font-bold">
-                  Profession
-                </h6>
-                <div className="grid-team-icons-div  ">
-                  <i className="fa-brands fa-brands-team fa-facebook"></i>
-                  <i className="fa-brands fa-brands-team fa-instagram"></i>
-                  <i className="fa-brands fa-brands-team fa-twitter"></i>
-                </div>
-              </div>
-            </div>
-            <div className="g-team-inno-items g-t-inno-i-2">
-              <div className="h-[60%]  t-inno-01 t-inno-01-2"></div>
-              <div className="h-[40%]  t-inno-02 t-inno-02-2 flex flex-col items-center justify-around py-10">
-                <h5 className="font-bold text-[16px] text-[#252B42]">
-                  Username
-                </h5>
-                <h6 className="text-[#737373] text-[14px] font-bold">
-                  Profession
-                </h6>
-                <div className="grid-team-icons-div  ">
-                  <i className="fa-brands fa-brands-team fa-facebook"></i>
-                  <i className="fa-brands fa-brands-team fa-instagram"></i>
-                  <i className="fa-brands fa-brands-team fa-twitter"></i>
-                </div>
-              </div>
-            </div>
-            <div className="g-team-inno-items g-t-inno-i-3">
-              <div className="h-[60%]  t-inno-01 t-inno-01-3"></div>
-              <div className="h-[40%]  t-inno-02 t-inno-02-3 flex flex-col items-center justify-around py-10">
-                <h5 className="font-bold text-[16px] text-[#252B42]">
-                  Username
-                </h5>
-                <h6 className="text-[#737373] text-[14px] font-bold">
-                  Profession
-                </h6>
-                <div className="grid-team-icons-div  ">
-                  <i className="fa-brands fa-brands-team fa-facebook"></i>
-                  <i className="fa-brands fa-brands-team fa-instagram"></i>
-                  <i className="fa-brands fa-brands-team fa-twitter"></i>
-                </div>
-              </div>
-            </div>
-            <div className="g-team-inno-items g-t-inno-i-4">
-              <div className="h-[60%]  t-inno-01 t-inno-01-4"></div>
-              <div className="h-[40%]  t-inno-02 t-inno-02-4 flex flex-col items-center justify-around py-10">
-                <h5 className="font-bold text-[16px] text-[#252B42]">
-                  Username
-                </h5>
-                <h6 className="text-[#737373] text-[14px] font-bold">
-                  Profession
-                </h6>
-                <div className="grid-team-icons-div  ">
-                  <i className="fa-brands fa-brands-team fa-facebook"></i>
-                  <i className="fa-brands fa-brands-team fa-instagram"></i>
-                  <i className="fa-brands fa-brands-team fa-twitter"></i>
-                </div>
-              </div>
-            </div>
-            <div className="g-team-inno-items g-t-inno-i-5">
-              <div className="h-[60%]  t-inno-01 t-inno-01-5"></div>
-              <div className="h-[40%]  t-inno-02 t-inno-02-5 flex flex-col items-center justify-around py-10">
-                <h5 className="font-bold text-[16px] text-[#252B42]">
-                  Username
-                </h5>
-                <h6 className="text-[#737373] text-[14px] font-bold">
-                  Profession
-                </h6>
-                <div className="grid-team-icons-div  ">
-                  <i className="fa-brands fa-brands-team fa-facebook"></i>
-                  <i className="fa-brands fa-brands-team fa-instagram"></i>
-                  <i className="fa-brands fa-brands-team fa-twitter"></i>
-                </div>
-              </div>
-            </div>
-            <div className="g-team-inno-items g-t-inno-i-6">
-              <div className="h-[60%]  t-inno-01 t-inno-01-6"></div>
-              <div className="h-[40%]  t-inno-02 t-inno-02-6 flex flex-col items-center justify-around py-10">
-                <h5 className="font-bold text-[16px] text-[#252B42]">
-                  Username
-                </h5>
-                <h6 className="text-[#737373] text-[14px] font-bold">
-                  Profession
-                </h6>
-                <div className="grid-team-icons-div  ">
-                  <i className="fa-brands fa-brands-team fa-facebook"></i>
-                  <i className="fa-brands fa-brands-team fa-instagram"></i>
-                  <i className="fa-brands fa-brands-team fa-twitter"></i>
-                </div>
-              </div>
-            </div>
-            <div className="g-team-inno-items g-t-inno-i-7">
-              <div className="h-[60%]  t-inno-01 t-inno-01-7"></div>
-              <div className="h-[40%]  t-inno-02 t-inno-02-7 flex flex-col items-center justify-around py-10">
-                <h5 className="font-bold text-[16px] text-[#252B42]">
-                  Username
-                </h5>
-                <h6 className="text-[#737373] text-[14px] font-bold">
-                  Profession
-                </h6>
-                <div className="grid-team-icons-div  ">
-                  <i className="fa-brands fa-brands-team fa-facebook"></i>
-                  <i className="fa-brands fa-brands-team fa-instagram"></i>
-                  <i className="fa-brands fa-brands-team fa-twitter"></i>
-                </div>
-              </div>
-            </div>
-            <div className="g-team-inno-items g-t-inno-i-8">
-              <div className="h-[60%]  t-inno-01 t-inno-01-8"></div>
-              <div className="h-[40%]  t-inno-02 t-inno-02-8 flex flex-col items-center justify-around py-10">
-                <h5 className="font-bold text-[16px] text-[#252B42]">
-                  Username
-                </h5>
-                <h6 className="text-[#737373] text-[14px] font-bold">
-                  Profession
-                </h6>
-                <div className="grid-team-icons-div  ">
-                  <i className="fa-brands fa-brands-team fa-facebook"></i>
-                  <i className="fa-brands fa-brands-team fa-instagram"></i>
-                  <i className="fa-brands fa-brands-team fa-twitter"></i>
-                </div>
-              </div>
-            </div>
-            <div className="g-team-inno-items g-t-inno-i-9">
-              <div className="h-[60%]  t-inno-01 t-inno-01-9"></div>
-              <div className="h-[40%]  t-inno-02 t-inno-02-9 flex flex-col items-center justify-around py-10">
-                <h5 className="font-bold text-[16px] text-[#252B42]">
-                  Username
-                </h5>
-                <h6 className="text-[#737373] text-[14px] font-bold">
-                  Profession
-                </h6>
-                <div className="grid-team-icons-div  ">
-                  <i className="fa-brands fa-brands-team fa-facebook"></i>
-                  <i className="fa-brands fa-brands-team fa-instagram"></i>
-                  <i className="fa-brands fa-brands-team fa-twitter"></i>
-                </div>
-              </div>
-            </div>
+            {Data.map((item, index) => {
+              return (
+                <>
+                  <div key={item.id} className="g-team-inno-items g-t-inno-i-1">
+                    <div
+                      className="h-[60%]  t-inno-01 t-inno-01-1"
+                      style={{ backgroundImage: `url(${item.imageSrc})` }}
+                    ></div>
+                    <div className="h-[40%]  t-inno-02 t-inno-02-1 flex flex-col items-center justify-around py-10">
+                      <h5 className="font-bold text-[16px] text-[#252B42]">
+                        {item.h5}
+                      </h5>
+                      <h6 className="text-[#737373] text-[14px] font-bold">
+                        {item.h6}
+                      </h6>
+                      <div className="grid-team-icons-div  ">
+                        <i className="fa-brands fa-brands-team fa-facebook"></i>
+                        <i className="fa-brands fa-brands-team fa-instagram"></i>
+                        <i className="fa-brands fa-brands-team fa-twitter"></i>
+                      </div>
+                    </div>
+                  </div>
+                </>
+              );
+            })}
           </div>
           <div className="inno-last-div-info max-w-[1040px] m-auto py-[40px] px-2">
             <div className="flex flex-col items-center justify-between py-[20px] h-[350px]">

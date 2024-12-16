@@ -3,7 +3,7 @@ import ResponsiveNav from "../responsive-nav/responsiveNav";
 export default function Header({ bgColor = "bg-[#252B42]" }) {
   return (
     <>
-      <nav className="nav-con  max-w-[1440px] m-auto ">
+      <nav className="nav-con  max-w-[1440px] m-auto   sticky top-0 z-50">
         <div
           className={`child-nav-1    h-[3rem]  flex items-center justify-between px-4 text-white ${bgColor}`}
         >
@@ -37,7 +37,7 @@ export default function Header({ bgColor = "bg-[#252B42]" }) {
           </div>
         </div>
 
-        <div className="child-nav-2  px-4 h-[4rem] flex items-center justify-between">
+        <div className="child-nav-2 bg-white px-4 h-[4rem] flex items-center justify-between">
           <div>
             <h3 className="font-bold text-[24px]">Bandage</h3>
           </div>
