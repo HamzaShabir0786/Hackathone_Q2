@@ -11,7 +11,7 @@ export default function ResponsiveNav() {
   };
   return (
     <>
-      <div className=" responsive-div-icons flex w-[auto] py-4 px-2 pr-8 justify-between  items-center text-[24px] text-[#737373]   fixed top-0 z-50 bg-white">
+      <div className=" responsive-div-icons flex w-[auto] py-4 px-2 pr-8 justify-between  items-center text-[24px] text-[#737373]   sticky top-0 z-50 bg-white">
         <div>
           <h3 className="text-[24px] font-bold text-[#252B42]">Banadage</h3>
         </div>
@@ -30,9 +30,9 @@ export default function ResponsiveNav() {
           </div>
         </div>
       </div>
-      <div className="flex justify-center items-center px-2">
+      <div className="flex justify-center h-[auto]    bg-blue-200 items-center px-2">
         <div
-          className={`special-nav-for-mobile  max-w-[10rem] h-[24rem]     mt-24  tablet:hidden  ${
+          className={`special-nav-for-mobile flex flex-col items-center max-w-[20rem] h-[34rem]      tablet:hidden  ${
             navBarOpen ? "block" : "hidden"
           }`}
         >
@@ -50,6 +50,28 @@ export default function ResponsiveNav() {
               <Link href="/contact"> Contact</Link>
             </li>
           </ul>
+
+          <div className="px-2  bg-red-500 w-[20rem] h-[20rem] m-auto">
+            <div className=" login-nav  flex flex-col items-center gap-5   text-[#23a6f0] h-[46px] p-4">
+              <div className="flex items-center  h-9">
+                <div className="flex items-center text-[30px] ">
+                  <i className="fa-solid fa-solid-home-nav fa-user pr-2 "></i>
+                  <div className="text-[30px]">
+                    <a href="#">Login</a> / <a href="#">Register</a>
+                  </div>
+                </div>
+              </div>
+              <div className="flex flex-col gap-8 text-[30px] items-center justify-between w-[auto] px-4 ">
+                <i className="fa-solid fa-solid-home-nav fa-magnifying-glass h-[46px] "></i>
+                <i className="fa-solid fa-solid-home-nav fa-cart-shopping h-[46px] ">
+                  1{" "}
+                </i>
+                <i className="fa-regular fa-solid fa-solid-home-nav fa-heart h-[46px]">
+                  1
+                </i>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </>

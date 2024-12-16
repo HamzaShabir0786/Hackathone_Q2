@@ -3,8 +3,8 @@ import CompaniesLogo from "../components/Companies-logo/companies-logo";
 export default function Pricing() {
   return (
     <>
-      <div className="max-w-[1440px] m-auto  ">
-        <Nav2 />
+      <Nav2 />
+      <div className="max-w-[1440px] h-auto m-auto  ">
         <div className="px-2 ">
           <div className="max-w-[1040px] m-auto ">
             <div className="flex flex-col items-center justify-between w-auto h-auto py-[60px]">

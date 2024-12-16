@@ -4,9 +4,8 @@ import CompaniesLogo from "../components/Companies-logo/companies-logo";
 export default function Product1() {
   return (
     <>
-      <div className="max-w-[1440px] m-auto a-autoh">
-        <Header bgColor="bg-[#23856D]" />
-      </div>
+      <Header bgColor="bg-[#23856D]" />
+
       <div className="max-w-[1440px] m-auto   ">
         <div className="px-2">
           <ul className="flex justify-between items-center w-[150px]  py-[20px]">
