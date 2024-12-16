@@ -1,4 +1,3 @@
-import FeatureData from "../../../public/featureData.json";
 export default function FeaturedProducts() {
   return (
     <>
