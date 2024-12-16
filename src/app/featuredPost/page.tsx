@@ -3,7 +3,7 @@ export default function FeaturedPost() {
     <>
       <div className="max-w-[1440px] h-[auto]  m-auto">
         <div className="max-w-[1040px] m-auto   ">
-          <div className="py-[80px] text-center">
+          <div className="py-[80px] text-center px-2 ">
             <h6 className="text-[#23A6F0] font-bold text-[14px]">
               Practice Advice
             </h6>
@@ -15,7 +15,7 @@ export default function FeaturedPost() {
               realms of Classical physics: Newtonian mechanics
             </p>
           </div>
-          <div className="grid-featured-post  ">
+          <div className="grid-featured-post px-2  ">
             <div className="featured-items featured-i-1   ">
               <div className="all-featured-post-n-1 h-[50%]  f-p-n-1 "></div>
               <div className="all-featured-post-n-2 h-[50%] p-4 f-p-n-2  flex  flex-col justify-around">
@@ -32,7 +32,7 @@ export default function FeaturedPost() {
                   We focus on ergonomics and meeting you where you work. It's
                   only a keystroke away.{" "}
                 </p>
-                <div className="flex  justify-between">
+                <div className="flex justify-between ">
                   <span className="text-[#737373] text-[12px] ">
                     <i className="fa-regular fa-bell pr-2"></i>
                     22 April 2021
