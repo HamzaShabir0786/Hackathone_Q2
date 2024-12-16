@@ -30,7 +30,7 @@ export default function ResponsiveNav() {
           </div>
         </div>
       </div>
-      <div className="flex justify-center h-[auto]    bg-blue-200 items-center px-2">
+      <div className="flex justify-center h-[auto]    bg-white items-center px-2">
         <div
           className={`special-nav-for-mobile flex flex-col items-center max-w-[20rem] h-[34rem]      tablet:hidden  ${
             navBarOpen ? "block" : "hidden"
@@ -51,7 +51,7 @@ export default function ResponsiveNav() {
             </li>
           </ul>
 
-          <div className="px-2  bg-red-500 w-[20rem] h-[20rem] m-auto">
+          <div className="px-2   w-[20rem] h-[20rem] m-auto">
             <div className=" login-nav  flex flex-col items-center gap-5   text-[#23a6f0] h-[46px] p-4">
               <div className="flex items-center  h-9">
                 <div className="flex items-center text-[30px] ">

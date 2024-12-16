@@ -1010,7 +1010,10 @@
   }
 }
 @media (max-width: 700px) {
-  .contact-nav-h3 {
+  .contact-nav {
+    display: none;
+  }
+  /* .contact-nav-h3 {
     display: none;
   }
   .ul-div {
@@ -1018,7 +1021,7 @@
   }
   .contact-btns-div {
     display: none;
-  }
+  } */
 
   .responsive-div-icons {
     display: flex;
