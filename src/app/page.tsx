@@ -34,7 +34,7 @@ export default function Home() {
       <FeaturedProducts />
       <VitalClassic />
       <Fluid />
-      {/* <FeaturedPost /> */}
+      <FeaturedPost />
     </>
   );
 }
