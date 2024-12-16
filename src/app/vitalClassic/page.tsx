@@ -1,14 +1,6 @@
 export default function VitalClassic() {
   return (
     <>
-      {/* <div className="max-w-[1420px] h-[750px] bg-[#23856D] m-auto">
-        <div className="max-w-[1044px] h-[500px] bg-blue-100 m-auto">
-          <div className="flex">
-            <div className="bg-gray-300">d</div>
-            <div className="bg-yellow-100">df</div>
-          </div>
-        </div>
-      </div> */}
       <div className="max-w-[1440px] h-[auto] m-auto bg-[#23856d]  px-2 py-[80px] ">
         <div className="vital-flex   ">
           <div className="vital-flex-1 h-[500px]  ">
