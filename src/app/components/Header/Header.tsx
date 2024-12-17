@@ -29,10 +29,21 @@ export default function Header({ bgColor = "bg-[#252B42]" }) {
               Follow US:
             </h6>
             <div className="w-[120px] h-[26px]">
-              <i className="fa-brands fa-instagram"></i>
-              <i className="fa-brands fa-youtube"></i>
-              <i className="fa-brands fa-facebook"></i>
-              <i className="fa-brands fa-twitter"></i>
+              <a
+                href="https://www.instagram.com/hamza_shabir_0786/?hl=en"
+                target="_blank"
+              >
+                <i className="fa-brands fa-instagram"></i>
+              </a>
+              <a href="https://www.youtube.com/" target="_blank">
+                <i className="fa-brands fa-youtube"></i>
+              </a>
+              <a href="https://web.facebook.com/M.Hamza2205" target="_blank">
+                <i className="fa-brands fa-facebook"></i>
+              </a>
+              <a href="https://x.com/hamzii2205/" target="_blank">
+                <i className="fa-brands fa-twitter"></i>
+              </a>
             </div>
           </div>
         </div>

@@ -8,9 +8,18 @@ export default function Footer() {
               <h3 className="font-bold text-[24px]">Bandage</h3>
             </div>
             <div className="  flex gap-5 text-[#23A6F0]">
-              <i className="fa-brands footer-fa-brands fa-facebook  text-[23px]    "></i>
-              <i className="fa-brands footer-fa-brands fa-instagram text-[23px]   "></i>
-              <i className="fa-brands footer-fa-brands fa-twitter text-[23px]   "></i>
+              <a href="https://web.facebook.com/M.Hamza2205" target="_blank">
+                <i className="fa-brands footer-fa-brands fa-facebook  text-[23px]    "></i>
+              </a>
+              <a
+                href="https://www.instagram.com/hamza_shabir_0786/?hl=en"
+                target="_blank"
+              >
+                <i className="fa-brands footer-fa-brands fa-instagram text-[23px]   "></i>
+              </a>
+              <a href="https://x.com/hamzii2205/" target="_blank">
+                <i className="fa-brands footer-fa-brands fa-twitter text-[23px]   "></i>
+              </a>
             </div>
           </div>
           <div className="footer-div  py-[40px]">
