@@ -259,10 +259,24 @@ export default function Pricing() {
                 Try it fry now
               </button>
               <div className="pricing-icons w-[250px] text-center flex gap-10  h-[auto]">
-                <i className="p-icons p-i-tiwtter fa-brands fa-twitter"></i>
-                <i className="p-icons p-i-facebook fa-brands fa-facebook"></i>
-                <i className="p-icons p-i-instagram fa-brands fa-instagram"></i>
-                <i className="p-icons p-i-linkedin fa-brands fa-linkedin"></i>
+                <a href="https://x.com/hamzii2205/" target="_blank">
+                  <i className="p-icons p-i-tiwtter fa-brands fa-twitter"></i>
+                </a>
+                <a href="https://web.facebook.com/M.Hamza2205" target="_blank">
+                  <i className="p-icons p-i-facebook fa-brands fa-facebook"></i>
+                </a>
+                <a
+                  href="https://www.instagram.com/hamza_shabir_0786/?hl=en"
+                  target="_blank"
+                >
+                  <i className="p-icons p-i-instagram fa-brands fa-instagram"></i>
+                </a>
+                <a
+                  href="https://www.linkedin.com/in/hamza-shabir-796b8a261/"
+                  target="_blank"
+                >
+                  <i className="p-icons p-i-linkedin fa-brands fa-linkedin"></i>
+                </a>
               </div>
             </div>
           </div>
