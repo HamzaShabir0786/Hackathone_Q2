@@ -32,7 +32,7 @@ export default function ResponsiveNav() {
       </div>
       <div className="flex justify-center h-[auto]    bg-white items-center px-2">
         <div
-          className={`special-nav-for-mobile flex flex-col items-center max-w-[20rem] h-[34rem] tablet:hidden  ${
+          className={`special-nav-for-mobile flex flex-col items-center max-w-[20rem] h-[auto] tablet:hidden  ${
             navBarOpen ? "block" : "hidden"
           }`}
         >
