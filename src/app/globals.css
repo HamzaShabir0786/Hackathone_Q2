@@ -10,17 +10,10 @@
 }
 
 .fa-brands {
-  width: 26px;
-  height: 26px;
-  padding: 5px;
-  gap: 10px;
-  color: white;
+  @apply w-[26px] h-[26px] gap-[10px] text-[white];
 }
 .fa-solid-home-nav {
-  display: flex;
-  align-items: center;
-
-  height: auto;
+  @apply flex items-center h-auto;
 }
 .landing-home {
   background-image: url("/images/hero1.jpg");
@@ -37,9 +30,7 @@
   gap: 15px;
 }
 .desktop2-grid-items {
-  background-position: top;
-  background-size: cover;
-  background-repeat: no-repeat;
+  @apply bg-top bg-cover bg-no-repeat;
 }
 .d-g-i-3 {
   display: grid;
@@ -65,60 +56,19 @@
   background-size: cover;
 }
 .feature-grid {
-  display: grid;
-  width: auto;
-
+  @apply grid w-auto gap-[10px] gap-y-[100px];
   grid-template-columns: repeat(4, minmax(200px, 300px));
   grid-template-rows: repeat(2, minmax(615px, 615px));
   grid-auto-rows: minmax(615px, 615px);
-  gap: 10px;
-
-  row-gap: 100px;
 }
 .nested-all-feature-1 {
-  height: 70%;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: top;
-}
-.n-f-1 {
-  background-image: url("/images/bg-f1.png");
-}
-.n-f-2 {
-  background-image: url("/images/bg-f2.png");
-}
-.n-f-3 {
-  background-image: url("/images/bg-f3.png");
-}
-.n-f-4 {
-  background-image: url("/images/bg-f4.png");
-}
-.n-f-5 {
-  background-image: url("/images/bg-f5.png");
-}
-.n-f-6 {
-  background-image: url("/images/bg-f6.png");
-}
-.n-f-7 {
-  background-image: url("/images/bg-f7.png");
-}
-.n-f-8 {
-  background-image: url("/images/bg-f8.png");
+  @apply h-[70%] bg-no-repeat bg-cover bg-top;
 }
 .nested-all-feature-2 {
-  height: 30%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-around;
+  @apply h-[30%] flex flex-col items-center justify-around;
 }
 .roll-div {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-
-  width: 5rem;
-  height: 2rem;
+  @apply flex justify-around items-center w-[5rem] h-[2rem];
 }
 .roll-bg-1 {
   background-color: #23a6f0;
@@ -133,23 +83,16 @@
   background-color: #252b42;
 }
 .span-div-price {
-  width: 130px;
-  display: flex;
-  justify-content: space-around;
-  font-weight: 700;
+  @apply w-[130px] flex justify-around font-bold;
 }
 .span-div-price .price-1 {
-  font-weight: 700;
-
-  color: #bdbdbd;
+  @apply font-bold text-[#bdbdbd];
 }
 .span-div-price .price-2 {
-  font-weight: 700;
-
-  color: #23856d;
+  @apply font-bold text-[#23856d];
 }
 .title-p {
-  font-weight: 700;
+  @apply font-bold;
 }
 
 .fluid-landing {
@@ -158,7 +101,6 @@
 }
 .grid-featured-post {
   display: grid;
-
   grid-template-columns: repeat(3, minmax(320px, 1fr));
   grid-template-rows: repeat(1, minmax(600px, 600px));
   grid-auto-rows: 600px;
@@ -167,7 +109,7 @@
 }
 
 .all-featured-post-n-2 {
-  background-color: white;
+  @apply bg-white;
 }
 
 .f-p-n-1 {
@@ -183,7 +125,7 @@
   background-size: cover;
 }
 .footer-fa-brands {
-  color: #23a6f0;
+  @apply text-[#23a6f0];
 }
 .footer-div {
   display: grid;
@@ -195,33 +137,19 @@
   gap: 5px;
 }
 .footer-h5 {
-  font-weight: 700;
-  color: #252b42;
-  font-size: 20px;
+  @apply font-bold text-[#252b42] text-[20px];
 }
 .footer-ul {
-  color: #737373;
-  font-weight: 700;
-  display: flex;
-  flex-direction: column;
-  align-items: space-around;
-  gap: 8px;
-  margin-top: 0.8rem;
-  /* background-color: #23856d; */
+  @apply text-[#737373] font-bold flex flex-col  gap-[8px] mt-[0.8rem];
 }
 .get-in-touch {
   grid-column: 5/7;
 }
 .get-in-touch .footer-input {
-  border-top-left-radius: 3px;
-  border-bottom-left-radius: 3px;
+  @apply bg-red-500 rounded-tl-[3px]  rounded-bl-[3px];
 }
 .get-in-touch .footer-btn {
-  background-color: #23a6f0;
-  color: white;
-  padding: 0.8rem;
-  border-top-right-radius: 3px;
-  border-bottom-right-radius: 3px;
+  @apply bg-[#23a6f0] text-white p-[0.8rem] rounded-tr-[3px] rounded-br-[3px];
 }
 /* vital classic start from here */
 .vital-flex {
@@ -236,12 +164,8 @@
 }
 
 .vital-flex-2 {
+  @apply w-[50%] h-[570px] bg-no-repeat bg-contain;
   background-image: url("/images/hero2.png");
-  background-size: contain;
-  background-repeat: no-repeat;
-
-  width: 50%;
-  height: 570px;
 }
 /* vital classic end from here */
 
@@ -363,18 +287,10 @@
   gap: 20px;
 }
 .g-n-t-all-01 {
-  height: 60%;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
+  @apply h-[60%] bg-no-repeat bg-cover bg-center;
 }
 .g-n-t-all-02 {
-  height: 40%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-around;
-  @apply py-4;
+  @apply h-[40$] flex flex-col items-center justify-center py-4;
 }
 .grid-team-icons-div {
   @apply w-[8rem] flex justify-between px-2;
@@ -386,10 +302,10 @@
 .company-grid {
   height: auto;
   display: grid;
+  gap: 20px;
   grid-template-columns: repeat(6, minmax(150px, 1fr));
   grid-template-rows: repeat(1, minmax(200px, 210px));
   grid-auto-rows: minmax(200px, 210px);
-  gap: 20px;
 }
 
 .company-grid .companies {
@@ -516,21 +432,13 @@
   padding: 1rem;
 }
 .para-div-prodcut-1 hr {
-  width: 100%;
-  border: none;
-  border-top: 1px solid #bdbdbd;
-  margin: 10px 0;
+  @apply w-full border-t border-t-[#bdbdbd] my-[10px];
 }
 .span-roll-div {
-  display: flex;
-  align-items: center;
-  gap: 15px;
+  @apply flex items-center gap-[15px];
 }
 .span-roll-div span {
-  height: 2.5rem;
-  width: 2.5rem;
-  display: block;
-  border-radius: 50%;
+  @apply h-[2.5rem] w-[2.5rem] block rounded-[50%];
 }
 
 .span-roll-div .span-1 {
@@ -546,16 +454,10 @@
   background-color: #252b42;
 }
 .buy-heart-eye-icons-div {
-  display: flex;
-  gap: 15px;
-
-  width: auto;
+  @apply flex gap-[15px] w-auto;
 }
 .buy-heart-eye-icons-div i {
-  padding: 0.7rem;
-  border-radius: 50%;
-  border: 1px solid #737373;
-  cursor: pointer;
+  @apply p-[0.7rem] rounded-full border border-[#737373] cursor-pointer;
 }
 .grid-info-product-1 {
   display: grid;

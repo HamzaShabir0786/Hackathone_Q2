@@ -1,3 +1,4 @@
+import Data from "../../../public/feauterProducts.json";
 export default function FeaturedProducts() {
   return (
     <>
@@ -14,158 +15,34 @@ export default function FeaturedProducts() {
           </div>
 
           <div className="feature-grid  pb-[80px] ">
-            <div className="feature-grid-items f-g-i-1">
-              <div className="nested-all-feature-1 n-f-1 "></div>
-              <div className="nested-all-feature-2 n-f-2-1">
-                <h5 className="text-[16px] font-bold">Graphic Design </h5>
-                <p className="text-[14px] text-[#737373] text-bold title-p">
-                  Arabic Department
-                </p>
-                <div className="span-div-price">
-                  <div className="price-1">$16.48</div>
-                  <div className="price-2">$6.48</div>
-                </div>
-                <div className="roll-div">
-                  <div className="w-[16px] h-[16px] rounded-[50%] roll-bg-1"></div>
-                  <div className="w-[16px] h-[16px] rounded-[50%] roll-bg-2"></div>
-                  <div className="w-[16px] h-[16px] rounded-[50%] roll-bg-3"></div>
-                  <div className="w-[16px] h-[16px] rounded-[50%] roll-bg-4"></div>
-                </div>
-              </div>
-            </div>
-            <div className="feature-grid-items f-g-i-2">
-              <div className="nested-all-feature-1 n-f-2 "></div>
-              <div className="nested-all-feature-2 n-f-2-2">
-                <h5 className="text-[16px] font-bold">Graphic Design </h5>
-                <p className="text-[14px] text-[#737373] text-bold title-p">
-                  English Department
-                </p>
-                <div className="span-div-price">
-                  <div className="price-1">$16.48</div>
-                  <div className="price-2">$6.48</div>
-                </div>
-                <div className="roll-div">
-                  <div className="w-[16px] h-[16px] rounded-[50%] roll-bg-1"></div>
-                  <div className="w-[16px] h-[16px] rounded-[50%] roll-bg-2"></div>
-                  <div className="w-[16px] h-[16px] rounded-[50%] roll-bg-3"></div>
-                  <div className="w-[16px] h-[16px] rounded-[50%] roll-bg-4"></div>
-                </div>
-              </div>
-            </div>
-            <div className="feature-grid-items f-g-i-3">
-              <div className="nested-all-feature-1 n-f-3"></div>
-              <div className="nested-all-feature-2 n-f-2-3">
-                <h5 className="text-[16px] font-bold">Graphic Design </h5>
-                <p className="text-[14px] text-[#737373] text-bold title-p">
-                  English Department
-                </p>
-                <div className="span-div-price">
-                  <div className="price-1">$16.48</div>
-                  <div className="price-2">$6.48</div>
-                </div>
-                <div className="roll-div">
-                  <div className="w-[16px] h-[16px] rounded-[50%] roll-bg-1"></div>
-                  <div className="w-[16px] h-[16px] rounded-[50%] roll-bg-2"></div>
-                  <div className="w-[16px] h-[16px] rounded-[50%] roll-bg-3"></div>
-                  <div className="w-[16px] h-[16px] rounded-[50%] roll-bg-4"></div>
-                </div>
-              </div>
-            </div>
-            <div className="feature-grid-items f-g-i-4">
-              <div className="nested-all-feature-1 n-f-4"></div>
-              <div className="nested-all-feature-2 n-f-2-4">
-                <h5 className="text-[16px] font-bold">Graphic Design </h5>
-                <p className="text-[14px] text-[#737373] text-bold title-p">
-                  English Department
-                </p>
-                <div className="span-div-price">
-                  <div className="price-1">$16.48</div>
-                  <div className="price-2">$6.48</div>
-                </div>
-                <div className="roll-div">
-                  <div className="w-[16px] h-[16px] rounded-[50%] roll-bg-1"></div>
-                  <div className="w-[16px] h-[16px] rounded-[50%] roll-bg-2"></div>
-                  <div className="w-[16px] h-[16px] rounded-[50%] roll-bg-3"></div>
-                  <div className="w-[16px] h-[16px] rounded-[50%] roll-bg-4"></div>
-                </div>
-              </div>
-            </div>
-            <div className="feature-grid-items f-g-i-5">
-              <div className="nested-all-feature-1 n-f-5"></div>
-              <div className="nested-all-feature-2 n-f-2-5">
-                <h5 className="text-[16px] font-bold">Graphic Design </h5>
-                <p className="text-[14px] text-[#737373] text-bold title-p">
-                  English Department
-                </p>
-                <div className="span-div-price">
-                  <div className="price-1">$16.48</div>
-                  <div className="price-2">$6.48</div>
-                </div>
-                <div className="roll-div">
-                  <div className="w-[16px] h-[16px] rounded-[50%] roll-bg-1"></div>
-                  <div className="w-[16px] h-[16px] rounded-[50%] roll-bg-2"></div>
-                  <div className="w-[16px] h-[16px] rounded-[50%] roll-bg-3"></div>
-                  <div className="w-[16px] h-[16px] rounded-[50%] roll-bg-4"></div>
-                </div>
-              </div>
-            </div>
-            <div className="feature-grid-items f-g-i-6">
-              <div className="nested-all-feature-1 n-f-6  "></div>
-              <div className="nested-all-feature-2 n-f-2-6">
-                <h5 className="text-[16px] font-bold">Graphic Design </h5>
-                <p className="text-[14px] text-[#737373] text-bold title-p">
-                  English Department
-                </p>
-                <div className="span-div-price">
-                  <div className="price-1">$16.48</div>
-                  <div className="price-2">$6.48</div>
-                </div>
-                <div className="roll-div">
-                  <div className="w-[16px] h-[16px] rounded-[50%] roll-bg-1"></div>
-                  <div className="w-[16px] h-[16px] rounded-[50%] roll-bg-2"></div>
-                  <div className="w-[16px] h-[16px] rounded-[50%] roll-bg-3"></div>
-                  <div className="w-[16px] h-[16px] rounded-[50%] roll-bg-4"></div>
-                </div>
-              </div>
-            </div>
-            <div className="feature-grid-items f-g-i-7">
-              <div className="nested-all-feature-1 n-f-7  "></div>
-              <div className="nested-all-feature-2 n-f-2-7">
-                <h5 className="text-[16px] font-bold">Graphic Design </h5>
-                <p className="text-[14px] text-[#737373] text-bold title-p">
-                  English Department
-                </p>
-                <div className="span-div-price">
-                  <div className="price-1">$16.48</div>
-                  <div className="price-2">$6.48</div>
-                </div>
-                <div className="roll-div">
-                  <div className="w-[16px] h-[16px] rounded-[50%] roll-bg-1"></div>
-                  <div className="w-[16px] h-[16px] rounded-[50%] roll-bg-2"></div>
-                  <div className="w-[16px] h-[16px] rounded-[50%] roll-bg-3"></div>
-                  <div className="w-[16px] h-[16px] rounded-[50%] roll-bg-4"></div>
-                </div>
-              </div>
-            </div>
-            <div className="feature-grid-items f-g-i-8">
-              <div className="nested-all-feature-1 n-f-8  "></div>
-              <div className="nested-all-feature-2 n-f-2-8">
-                <h5 className="text-[16px] font-bold">Graphic Design </h5>
-                <p className="text-[14px] text-[#737373] text-bold title-p">
-                  English Department
-                </p>
-                <div className="span-div-price">
-                  <div className="price-1">$16.48</div>
-                  <div className="price-2">$6.48</div>
-                </div>
-                <div className="roll-div ">
-                  <div className="w-[16px] h-[16px] rounded-[50%] roll-bg-1"></div>
-                  <div className="w-[16px] h-[16px] rounded-[50%] roll-bg-2"></div>
-                  <div className="w-[16px] h-[16px] rounded-[50%] roll-bg-3"></div>
-                  <div className="w-[16px] h-[16px] rounded-[50%] roll-bg-4"></div>
-                </div>
-              </div>
-            </div>
+            {Data.map((items, index) => {
+              return (
+                <>
+                  <div className="feature-grid-items f-g-i-1" key={items.id}>
+                    <div
+                      className="nested-all-feature-1 n-f-1 "
+                      style={{ backgroundImage: `url(${items.imageSrc})` }}
+                    ></div>
+                    <div className="nested-all-feature-2 n-f-2-1">
+                      <h5 className="text-[16px] font-bold">{items.h5} </h5>
+                      <p className="text-[14px] text-[#737373] text-bold title-p">
+                        {items.p}
+                      </p>
+                      <div className="span-div-price">
+                        <div className="price-1">{items.oldPrice}</div>
+                        <div className="price-2">{items.oldPrice}</div>
+                      </div>
+                      <div className="roll-div">
+                        <div className="w-[16px] h-[16px] rounded-[50%] roll-bg-1"></div>
+                        <div className="w-[16px] h-[16px] rounded-[50%] roll-bg-2"></div>
+                        <div className="w-[16px] h-[16px] rounded-[50%] roll-bg-3"></div>
+                        <div className="w-[16px] h-[16px] rounded-[50%] roll-bg-4"></div>
+                      </div>
+                    </div>
+                  </div>
+                </>
+              );
+            })}
           </div>
         </div>
       </div>

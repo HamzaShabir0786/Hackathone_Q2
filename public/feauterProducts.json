@@ -1,0 +1,66 @@
+[
+  {
+    "id": 1,
+    "imageSrc": "/images/bg-f1.png",
+    "h5": "Graphic Design",
+    "p": "English Department",
+    "oldPrice": "$16.48",
+    "newPrice": "$16.48"
+  },
+  {
+    "id": 2,
+    "imageSrc": "/images/bg-f2.png",
+    "h5": "Graphic Design",
+    "p": "Arabic Department",
+    "oldPrice": "$16.48",
+    "newPrice": "$16.48"
+  },
+  {
+    "id": 3,
+    "imageSrc": "/images/bg-f3.png",
+    "h5": "Graphic Design",
+    "p": "Arabic Department",
+    "oldPrice": "$16.48",
+    "newPrice": "$16.48"
+  },
+  {
+    "id": 4,
+    "imageSrc": "/images/bg-f4.png",
+    "h5": "Graphic Design",
+    "p": "Arabic Department",
+    "oldPrice": "$16.48",
+    "newPrice": "$16.48"
+  },
+  {
+    "id": 5,
+    "imageSrc": "/images/bg-f5.png",
+    "h5": "Graphic Design",
+    "p": "Arabic Department",
+    "oldPrice": "$16.48",
+    "newPrice": "$16.48"
+  },
+  {
+    "id": 6,
+    "imageSrc": "/images/bg-f6.png",
+    "h5": "Graphic Design",
+    "p": "Arabic Department",
+    "oldPrice": "$16.48",
+    "newPrice": "$16.48"
+  },
+  {
+    "id": 7,
+    "imageSrc": "/images/bg-f7.png",
+    "h5": "Graphic Design",
+    "p": "Arabic Department",
+    "oldPrice": "$16.48",
+    "newPrice": "$16.48"
+  },
+  {
+    "id": 8,
+    "imageSrc": "/images/bg-f8.png",
+    "h5": "Graphic Design",
+    "p": "Arabic Department",
+    "oldPrice": "$16.48",
+    "newPrice": "$16.48"
+  }
+]

@@ -74,7 +74,7 @@ export default function Footer() {
               </p>
             </div>
           </div>
-          <div>
+          <div className="  bg-slate-50 px-2">
             <h6 className="text-[#737373]  font-bold py-[40px]  text-center">
               Made With Love By Hamza Shabbir All Right Reserved{" "}
             </h6>
