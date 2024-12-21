@@ -24,7 +24,7 @@ export default function Footer() {
           </div>
           <div className="footer-div  py-[40px]">
             <div className="">
-              <h5 className="footer-h5">Company Info</h5>
+              <h5 className="footer-h5 ">Company Info</h5>
               <ul className="footer-ul">
                 <li>About US</li>
                 <li>Carrier</li>
@@ -65,9 +65,11 @@ export default function Footer() {
                 <input
                   type="text py-4"
                   placeholder="Your Email"
-                  className="pl-2 bg-[#F9F9F9] footer-input"
+                  className="pl-2 bg-[#F9F9F9] footer-input  rounded-tl-[3px]  rounded-bl-[3px];"
                 />
-                <button className="footer-btn">Subscribe</button>
+                <button className="footer-btn  bg-[#23a6f0] text-white p-[0.8rem] rounded-tr-[3px] rounded-br-[3px]">
+                  Subscribe
+                </button>
               </div>
               <p className="text-[#737373] font-bold pt-4">
                 Loret imp sum dolor Amit

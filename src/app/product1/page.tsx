@@ -18,10 +18,10 @@ export default function Product1() {
         </div>
         <div className="product-1-grid px-2  pb-[80px]  h-auto">
           <div>
-            <div className="product-pic-div h-[80%] w-auto "></div>
-            <div className="next-img-parent">
-              <div className="next-img-div-1"></div>
-              <div className="next-img-div-2"></div>
+            <div className="product-pic-div h-[80%] w-auto bg-cover bg-no-repeat bg-center"></div>
+            <div className="next-img-parent flex h-[75px] w-[12rem] gap-[20px] mt-[1.8rem]">
+              <div className="next-img-div-1 bg-cover bg-no-repeat bg-center w-[50%]"></div>
+              <div className="next-img-div-2 bg-cover bg-no-repeat bg-center w-[50%]"></div>
             </div>
           </div>
           <div className=" py-[20px] ">
@@ -50,13 +50,13 @@ export default function Product1() {
                   In Stock{" "}
                 </h6>
               </div>
-              <div className="para-div-prodcut-1">
+              <div className="para-div-prodcut-1 p-4">
                 <p className="text-[14px] font-bold text-[#858585]">
                   Met minim Mollie non desert Alamo est sit cliquey dolor do met
                   sent. RELIT official consequent door ENIM RELIT Mollie.
                   Excitation venial consequent sent nostrum met.
                 </p>
-                <hr />
+                <hr className="w-full border-t border-t-[#bdbdbd] my-[10px]" />
               </div>
               <div className="span-roll-div">
                 <span className="span-1"></span>

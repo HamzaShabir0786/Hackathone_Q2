@@ -1,4 +1,3 @@
-import "./contact.css";
 import Nav2 from "../components/nav2/nav2";
 export default function Contact() {
   return (
@@ -51,7 +50,7 @@ export default function Contact() {
                 <h6>georgia.young@ple.com</h6>
               </div>
               <h5 className="font-bold"> Get Support</h5>
-              <button className="contact-btn">Submit</button>
+              <button className="contact-btn ">Submit</button>
             </div>
             <div className="contact-business-items c-b-i-2 ">
               <i className="fa-solid-contact text-white text-[72px] fa-solid fa-location-dot"></i>
@@ -74,7 +73,7 @@ export default function Contact() {
           </div>
         </div>
 
-        <div className="arr-div  max-w-[1040px] h-[400px] m-auto">
+        <div className="arr-div  max-w-[1040px] h-[400px] m-auto px-2">
           <div>
             <div className=" text-center h-[auto] ">
               <div className=" text-center flex justify-center ">

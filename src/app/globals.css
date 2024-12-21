@@ -145,12 +145,7 @@
 .get-in-touch {
   grid-column: 5/7;
 }
-.get-in-touch .footer-input {
-  @apply rounded-tl-[3px]  rounded-bl-[3px];
-}
-.get-in-touch .footer-btn {
-  @apply bg-[#23a6f0] text-white p-[0.8rem] rounded-tr-[3px] rounded-br-[3px];
-}
+
 /* vital classic start from here */
 .vital-flex {
   @apply flex items-center justify-between max-w-[1144px] m-auto h-auto gap-[120px];
@@ -243,9 +238,7 @@
   grid-template-rows: repeat(1, minmax(600px, 610px));
   grid-auto-rows: minmax(600px, 610px);
 }
-.arr-div {
-  @apply px-2;
-}
+
 /* CONTACT PAGE'S CSS END FROM HERE HERE */
 
 /* about page's css start from here */
@@ -260,15 +253,7 @@
   background-image: url("/images/about-hero.png");
   @apply bg-no-repeat bg-center bg-contain;
 }
-.flex-about-problems {
-  @apply flex w-[100%] h-[210px] gap-[50px];
-}
-.flex-p-1 {
-  @apply w-[40%] flex flex-col justify-around;
-}
-.flex-p-2 {
-  @apply w-[60%] flex flex-col justify-center;
-}
+
 .progress-div {
   display: grid;
   grid-template-columns: repeat(4, minmax(180px, 1fr));
@@ -403,37 +388,15 @@
 }
 .product-pic-div {
   background-image: url("/images/product1-bg.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
 }
-.next-img-parent {
-  display: flex;
-  height: 75px;
-  width: 12rem;
-  gap: 20px;
-  margin-top: 1.8rem;
-}
+
 .next-img-div-1 {
-  width: 50%;
   background-image: url("/images/product2-bg.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
 }
 .next-img-div-2 {
-  width: 50%;
   background-image: url("/images/product1-bg.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
 }
-.para-div-prodcut-1 {
-  padding: 1rem;
-}
-.para-div-prodcut-1 hr {
-  @apply w-full border-t border-t-[#bdbdbd] my-[10px];
-}
+
 .span-roll-div {
   @apply flex items-center gap-[15px];
 }
@@ -916,20 +879,9 @@
   .contact-nav {
     display: none;
   }
-  /* .contact-nav-h3 {
-    display: none;
-  }
-  .ul-div {
-    display: none;
-  }
-  .contact-btns-div {
-    display: none;
-  } */
 
-  .responsive-div-icons {
-    display: flex;
-    justify-content: space-between;
-    width: 100%;
+  .responsive-div-icons { 
+    @apply flex justify-around w-[100%];
   }
   .child-nav-1 {
     display: none;
@@ -998,7 +950,7 @@
     grid-column: span 1;
   }
   .grid-child-inner-1 {
-    height: 450px;
+    @apply h-[450px];
   }
   .inno-h1 {
     @apply text-[28px];
@@ -1007,7 +959,6 @@
 @media (max-width: 480px) {
   .landing-home {
     background-position-x: 55rem;
-    /* background-position: center; */
   }
   .simple-pricing {
     @apply text-[48px];
@@ -1027,9 +978,7 @@
 }
 @media (max-width: 430px) {
   .responsive-div-icons .flex-icons-div {
-    width: auto;
-    gap: 20px;
-    font-size: 1.2rem;
+    @apply w-auto gap-[20px] text-[1.2rem];
   }
   .grid-contact-home {
     grid-template-columns: repeat(auto-fill, minmax(310px, 1fr));

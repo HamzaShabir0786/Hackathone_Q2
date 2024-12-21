@@ -25,8 +25,8 @@ export default function About() {
         </div>
 
         <div className="max-w-[1040px] m-auto h-[auto] py-[40px] px-2 ">
-          <div className="flex-about-problems py-[20px]">
-            <div className="flex-p-1 h-[200px]  ">
+          <div className="flex-about-problems py-[20px]  flex w-[100%] h-[210px] gap-[50px]">
+            <div className="flex-p-1 h-[200px] w-[40%] flex flex-col justify-around ">
               <p className="text-[#E74040] text-[14px] font-[600]">
                 Problems trying
               </p>
@@ -35,7 +35,7 @@ export default function About() {
                 sent.
               </h3>
             </div>
-            <div className="flex-p-2 h-[200px]">
+            <div className="flex-p-2 w-[60%] flex flex-col justify-center  h-[200px]">
               <p className="text-[14px] font-[600] text-[#737373]">
                 Problems trying to resolve the conflict between the two major
                 realms of Classical physics: Newtonian mechanics{" "}
