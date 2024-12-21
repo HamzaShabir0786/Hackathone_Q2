@@ -880,8 +880,8 @@
     display: none;
   }
 
-  .responsive-div-icons { 
-    @apply flex justify-around w-[100%];
+  .responsive-div-icons {
+    @apply flex justify-between w-[100%];
   }
   .child-nav-1 {
     display: none;
@@ -935,9 +935,6 @@
   }
   .inno-last-div-info h2 {
     @apply text-[40px];
-  }
-  .special-nav-for-mobile {
-    /* display: flex; */
   }
 }
 @media (max-width: 540px) {
