@@ -3,7 +3,6 @@
 @tailwind utilities;
 * {
   font-family: sans-serif;
-  background-position: start;
   margin: 0%;
   box-sizing: border-box;
   padding: 0%;
@@ -209,7 +208,6 @@
   @apply bg-no-repeat bg-center bg-contain;
 }
 .contact-business-grid {
-  display: grid;
   @apply grid mt-[4rem] gap-[3rem] h-auto;
   grid-template-columns: repeat(3, minmax(300px, 1fr));
   grid-template-rows: repeat(1, minmax(400px, 410px));
