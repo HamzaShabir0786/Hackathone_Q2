@@ -23,6 +23,7 @@ export default function FeaturedProducts() {
                       className="nested-all-feature-1 n-f-1 "
                       style={{ backgroundImage: `url(${items.imageSrc})` }}
                     ></div>
+
                     <div className="nested-all-feature-2 n-f-2-1">
                       <h5 className="text-[16px] font-bold">{items.h5} </h5>
                       <p className="text-[14px] text-[#737373] text-bold title-p">
