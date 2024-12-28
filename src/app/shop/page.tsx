@@ -1,9 +1,12 @@
+"use client";
+import { useState } from "react";
 import Header from "../components/Header/Header";
-import Data from "../../../public/shopData.json";
+import productData from "../../../public/shopData.json";
 import CompaniesLogo from "../components/Companies-logo/companies-logo";
 import Footer from "../components/Footer/Footer";
 
 export default function Shop() {
+  const [Data, setData] = useState(productData);
   return (
     <>
       <Header bgColor="bg-[#23856D]" />
@@ -67,41 +70,39 @@ export default function Shop() {
           <div className="grid-shop-product py-[80px]  px-2 gap-x-8">
             {Data.map((item, index) => {
               return (
-                <>
-                  <div key={item.id} className="g-team-inno-items g-t-inno-i-1">
-                    <div
-                      className="h-[70%]  g-shop-01 g-shop-01-1"
-                      style={{
-                        backgroundImage: `url(${item.imageSrc})`,
-                        backgroundSize: "cover",
-                        backgroundPosition: "center",
-                      }}
-                    ></div>
-                    <div className="h-[30%]  g-shop-02 g-shop-02-1 flex flex-col items-center justify-between py-5">
-                      <h5 className="font-bold text-[16px] text-[#252B42]">
-                        {item.h5}
-                      </h5>
+                <div key={item.id} className="g-team-inno-items g-t-inno-i-1">
+                  <div
+                    className="h-[70%]  g-shop-01 g-shop-01-1"
+                    style={{
+                      backgroundImage: `url(${item.imageSrc})`,
+                      backgroundSize: "cover",
+                      backgroundPosition: "center",
+                    }}
+                  ></div>
+                  <div className="h-[30%]  g-shop-02 g-shop-02-1 flex flex-col items-center justify-between py-5">
+                    <h5 className="font-bold text-[16px] text-[#252B42]">
+                      {item.h5}
+                    </h5>
 
-                      <a className="text-[#737373] text-[14px] font-bold">
-                        {item.a}
-                      </a>
-                      <div className="flex gap-x-4 ">
-                        <span className="text-[16px] font-bold text-[#BDBDBD]">
-                          {item.span1}
-                        </span>
-                        <span className="text-[16px] font-bold text-[#23856D]">
-                          {item.span2}
-                        </span>
-                      </div>
-                      <div className="grid-shop-icons-div flex gap-2  ">
-                        <div className="bg-[#23A6F0] w-[1rem] h-[1rem] rounded-[50%]"></div>
-                        <div className="bg-[#23856D] w-[1rem] h-[1rem] rounded-[50%]"></div>
-                        <div className="bg-[#E77C40] w-[1rem] h-[1rem] rounded-[50%]"></div>
-                        <div className="bg-[#23856D] w-[1rem] h-[1rem] rounded-[50%]"></div>
-                      </div>
+                    <a className="text-[#737373] text-[14px] font-bold">
+                      {item.a}
+                    </a>
+                    <div className="flex gap-x-4 ">
+                      <span className="text-[16px] font-bold text-[#BDBDBD]">
+                        {item.span1}
+                      </span>
+                      <span className="text-[16px] font-bold text-[#23856D]">
+                        {item.span2}
+                      </span>
+                    </div>
+                    <div className="grid-shop-icons-div flex gap-2  ">
+                      <div className="bg-[#23A6F0] w-[1rem] h-[1rem] rounded-[50%]"></div>
+                      <div className="bg-[#23856D] w-[1rem] h-[1rem] rounded-[50%]"></div>
+                      <div className="bg-[#E77C40] w-[1rem] h-[1rem] rounded-[50%]"></div>
+                      <div className="bg-[#23856D] w-[1rem] h-[1rem] rounded-[50%]"></div>
                     </div>
                   </div>
-                </>
+                </div>
               );
             })}
           </div>

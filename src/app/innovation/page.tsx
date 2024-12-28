@@ -1,6 +1,9 @@
+"use client";
 import Nav2 from "../components/nav2/nav2";
-import Data from "../../../public/innovationData.json";
+import productData from "../../../public/innovationData.json";
+import { useState } from "react";
 export default function Innovation() {
+  const [Data, setData] = useState(productData);
   return (
     <>
       <Nav2 />
@@ -58,27 +61,25 @@ export default function Innovation() {
           <div className="grid-team-inno py-[80px] px-2 gap-y-20 gap-x-8">
             {Data.map((item, index) => {
               return (
-                <>
-                  <div key={item.id} className="g-team-inno-items g-t-inno-i-1">
-                    <div
-                      className="h-[60%]  t-inno-01 t-inno-01-1"
-                      style={{ backgroundImage: `url(${item.imageSrc})` }}
-                    ></div>
-                    <div className="h-[40%]  t-inno-02 t-inno-02-1 flex flex-col items-center justify-around py-10">
-                      <h5 className="font-bold text-[16px] text-[#252B42]">
-                        {item.h5}
-                      </h5>
-                      <h6 className="text-[#737373] text-[14px] font-bold">
-                        {item.h6}
-                      </h6>
-                      <div className="grid-team-icons-div  ">
-                        <i className="fa-brands fa-brands-team fa-facebook"></i>
-                        <i className="fa-brands fa-brands-team fa-instagram"></i>
-                        <i className="fa-brands fa-brands-team fa-twitter"></i>
-                      </div>
+                <div key={item.id} className="g-team-inno-items g-t-inno-i-1">
+                  <div
+                    className="h-[60%]  t-inno-01 t-inno-01-1"
+                    style={{ backgroundImage: `url(${item.imageSrc})` }}
+                  ></div>
+                  <div className="h-[40%]  t-inno-02 t-inno-02-1 flex flex-col items-center justify-around py-10">
+                    <h5 className="font-bold text-[16px] text-[#252B42]">
+                      {item.h5}
+                    </h5>
+                    <h6 className="text-[#737373] text-[14px] font-bold">
+                      {item.h6}
+                    </h6>
+                    <div className="grid-team-icons-div  ">
+                      <i className="fa-brands fa-brands-team fa-facebook"></i>
+                      <i className="fa-brands fa-brands-team fa-instagram"></i>
+                      <i className="fa-brands fa-brands-team fa-twitter"></i>
                     </div>
                   </div>
-                </>
+                </div>
               );
             })}
           </div>
