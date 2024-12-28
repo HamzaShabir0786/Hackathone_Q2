@@ -52,33 +52,35 @@ export default function Header({ bgColor = "bg-[#252B42]" }) {
           <div>
             <h3 className="font-bold text-[24px]">Bandage</h3>
           </div>
-          <div className="li-div-nav flex list-none font-bold gap-[15px] text-[#737373] text-[13px]">
-            <li>
-              <Link href={"/"} target={"_blank"}>
-                Home
-              </Link>
-            </li>
-            <li>
-              <Link href={"/shop"} target={"_blank"}>
-                Shop
-              </Link>
-            </li>
-            <li>
-              <Link href={"/about"} target={"_blank"}>
-                About
-              </Link>
-            </li>
-            <li>
-              <Link href={"/innovation"} target={"_blank"}>
-                Blog
-              </Link>
-            </li>
-            <li>
-              <Link href={"/contact"} target={"_blank"}>
-                Contact
-              </Link>
-            </li>
-            <li>Pages</li>
+          <div>
+            <ul className="li-div-nav ul-nav flex list-none font-bold gap-[15px] text-[#737373] text-[13px]">
+              <li>
+                <Link href={"/"} target={"_blank"}>
+                  Home
+                </Link>
+              </li>
+              <li>
+                <Link href={"/shop"} target={"_blank"}>
+                  Shop
+                </Link>
+              </li>
+              <li>
+                <Link href={"/about"} target={"_blank"}>
+                  About
+                </Link>
+              </li>
+              <li>
+                <Link href={"/innovation"} target={"_blank"}>
+                  Blog
+                </Link>
+              </li>
+              <li>
+                <Link href={"/contact"} target={"_blank"}>
+                  Contact
+                </Link>
+              </li>
+              <li>Pages</li>
+            </ul>
           </div>
 
           <div className=" login-nav  flex items-center gap-5 text-[#23a6f0] h-[46px] p-4">

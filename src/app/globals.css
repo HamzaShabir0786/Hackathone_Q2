@@ -10,15 +10,35 @@
 
 .fa-brands {
   @apply w-[26px] h-[26px] gap-[10px] text-[white];
+  transition: all 0.25s linear;
 }
 .fa-solid-home-nav {
   @apply flex items-center h-auto;
+}
+.fa-brands:hover {
+  transform: scale(1.2);
+  cursor: pointer;
+  rotate: 10deg;
 }
 .landing-home {
   background-image: url("/images/hero1.jpg");
   background-size: cover;
 }
+.ul-nav li {
+  @apply relative;
+}
 
+.ul-nav li::before {
+  @apply mt-[1.2rem] rounded-md absolute w-[10px] border-[1.2px] border-[#737373];
+  content: "";
+  transition: all 0.25s linear;
+}
+.specific-nav-2-ul li::before {
+  @apply mt-[1.4rem];
+}
+.ul-nav li::before:hover {
+  @apply w-[100%];
+}
 .desktop2-grid {
   display: grid;
   height: auto;
@@ -598,6 +618,7 @@
     row-gap: 50px;
     height: auto;
   }
+
   .get-in-touch {
     /* grid-column: 5/7; */
     grid-column: auto;
@@ -610,11 +631,6 @@
   .d-g-i-1 {
     grid-column: 1;
     background-image: url("/images/img-1.png");
-  }
-  .footer-heading {
-    flex-direction: column;
-    align-items: start;
-    gap: 20px;
   }
 }
 @media (max-width: 1440px) {
@@ -1056,6 +1072,11 @@
   }
   .innovation-grid {
     grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+  }
+  .footer-heading {
+    flex-direction: column;
+    align-items: start;
+    gap: 20px;
   }
 }
 @media (max-width: 340px) {

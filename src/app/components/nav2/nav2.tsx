@@ -7,19 +7,26 @@ export default function Nav2() {
         <nav className=" contact-nav max-w-[1440px] block ">
           <h3 className="contact-nav-h3">Bandage</h3>
           <div className="ul-div ">
-            <ul>
-              <Link href="/" target="_blank">
-                Home
-              </Link>
+            <ul className="ul-nav specific-nav-2-ul">
+              <li>
+                <Link href="/" target="_blank">
+                  Home
+                </Link>
+              </li>
 
-              <Link href="/product1">Product</Link>
-
-              <Link href="/pricing" target="_blank">
-                Pricing
-              </Link>
-              <Link href="/contact" target="_blank">
-                Contact
-              </Link>
+              <li>
+                <Link href="/product1">Product</Link>
+              </li>
+              <li>
+                <Link href="/pricing" target="_blank">
+                  Pricing
+                </Link>
+              </li>
+              <li>
+                <Link href="/contact" target="_blank">
+                  Contact
+                </Link>
+              </li>
             </ul>
           </div>
           <div className="contact-btns-div">

@@ -14,18 +14,26 @@ export default function Pricing() {
               <h1 className="simple-pricing font-bold text-[58px] text-[#252B42]">
                 Simple Pricing
               </h1>
-              <div className="">
-                <ul className="flex justify-between items-center w-[150px]  py-[20px]">
-                  <li className="font-bold text-[14px]  text-[#252B42]">
+              <div>
+                <div className="flex justify-between items-center w-[150px]  py-[20px]">
+                  <a
+                    href="/"
+                    target="_blank"
+                    className="font-bold text-[14px]  text-[#252B42]"
+                  >
                     Home
-                  </li>
-                  <li>
-                    <i className="fa-solid fa-chevron-right text-[#BDBDBD] text-[30px]"></i>
-                  </li>
-                  <li className="font-bold text-[14px]  text-[#737373]">
+                  </a>
+
+                  <i className="fa-solid fa-chevron-right text-[#BDBDBD] text-[30px]"></i>
+
+                  <a
+                    href="/pricing"
+                    target="_blank"
+                    className="font-bold text-[14px]  text-[#737373]"
+                  >
                     Pricing
-                  </li>
-                </ul>
+                  </a>
+                </div>
               </div>
             </div>
           </div>

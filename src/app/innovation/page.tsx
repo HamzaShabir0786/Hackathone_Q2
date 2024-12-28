@@ -12,13 +12,25 @@ export default function Innovation() {
           </h1>
 
           <div className="px-2">
-            <ul className="flex justify-between items-center w-[150px]  py-[20px]">
-              <li className="font-bold text-[14px]  text-[#252B42]">Home</li>
-              <li>
-                <i className="fa-solid fa-chevron-right text-[#BDBDBD] text-[30px]"></i>
-              </li>
-              <li className="font-bold text-[14px]  text-[#737373]">Pricing</li>
-            </ul>
+            <div className="flex justify-between items-center w-[150px]  py-[20px]">
+              <a
+                className="font-bold text-[14px]  text-[#252B42]"
+                href="/"
+                target="_blank"
+              >
+                Home
+              </a>
+
+              <i className="fa-solid fa-chevron-right text-[#BDBDBD] text-[25px]"></i>
+
+              <a
+                className="font-bold text-[14px]  text-[#737373]"
+                href="/pricing"
+                target="_blank"
+              >
+                Pricing
+              </a>
+            </div>
           </div>
         </div>
         <div className="innovation-grid max-w-[1440px] m-auto  py-[40px] h-[auto] px-2">
