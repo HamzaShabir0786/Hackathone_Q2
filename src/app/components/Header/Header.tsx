@@ -3,7 +3,7 @@ import ResponsiveNav from "../responsive-nav/responsiveNav";
 export default function Header({ bgColor = "bg-[#252B42]" }) {
   return (
     <>
-      <nav className="nav-con  max-w-[1440px] m-auto   sticky top-0 z-50">
+      <nav className="nav-con   max-w-[100%] m-auto   sticky top-0 z-50">
         <div
           className={`child-nav-1    h-[3rem]  flex items-center justify-between px-4 text-white ${bgColor}`}
         >
