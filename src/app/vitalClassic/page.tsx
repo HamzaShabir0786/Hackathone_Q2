@@ -1,7 +1,7 @@
 export default function VitalClassic() {
   return (
     <>
-      <div className="vital-main-div max-w-[100%] h-[auto] m-auto bg-[#23856d]   px-2 py-[80px] ">
+      <div className="vital-main-div max-w-[1840px] h-[auto] m-auto bg-[#23856d]   px-2 py-[80px] ">
         <div className="vital-flex  ">
           <div className="vital-flex-1 h-[auto]  ">
             <div className="w-[auto] h-[auto] flex flex-col  justify-end ">
