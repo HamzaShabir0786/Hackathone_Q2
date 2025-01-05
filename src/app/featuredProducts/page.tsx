@@ -1,8 +1,26 @@
-"use client";
-import productData from "../../../public/feauterProducts.json";
-import { useState } from "react";
-export default function FeaturedProducts() {
-  const [Data, setData] = useState(productData);
+import { Image as IImage } from "sanity";
+import { urlForImg } from "@/sanity/lib/image";
+//import productData from "../../../public/feauterProducts.json";
+// import { useState } from "react";
+import { client } from "@/sanity/lib/client";
+const getproduct = async () => {
+  const res = await client.fetch(
+    `*[_type == "product"]{title, description, new_price ,old_price, image, product_id}`
+  );
+  return res;
+};
+// getproduct();
+
+interface DataType {
+  title: string;
+  description: string;
+  old_price: number;
+  new_price: number;
+  image: IImage;
+  product_id: number;
+}
+export default async function FeaturedProducts() {
+  const Data: DataType[] = await getproduct();
   return (
     <>
       <div className="max-w-[1444px] h-[auto]  m-auto">
@@ -18,22 +36,27 @@ export default function FeaturedProducts() {
           </div>
 
           <div className="feature-grid  pb-[80px] ">
-            {Data.map((items, index) => {
+            {Data.map((items: DataType) => {
               return (
-                <div className="feature-grid-items f-g-i-1" key={items.id}>
+                <div
+                  className="feature-grid-items f-g-i-1"
+                  key={items.product_id}
+                >
                   <div
                     className="nested-all-feature-1 n-f-1 "
-                    style={{ backgroundImage: `url(${items.imageSrc})` }}
+                    style={{
+                      backgroundImage: `url(${urlForImg(items.image)})`,
+                    }}
                   ></div>
 
                   <div className="nested-all-feature-2 n-f-2-1">
-                    <h5 className="text-[16px] font-bold">{items.h5} </h5>
+                    <h5 className="text-[16px] font-bold">{items.title} </h5>
                     <p className="text-[14px] text-[#737373] text-bold title-p">
-                      {items.p}
+                      {items.description}
                     </p>
                     <div className="span-div-price">
-                      <div className="price-1">{items.oldPrice}</div>
-                      <div className="price-2">{items.oldPrice}</div>
+                      <div className="price-1">${items.old_price}</div>
+                      <div className="price-2">${items.new_price}</div>
                     </div>
                     <div className="roll-div">
                       <div className="w-[16px] h-[16px] rounded-[50%] roll-bg-1"></div>

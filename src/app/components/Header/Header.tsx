@@ -1,6 +1,19 @@
 import Link from "next/link";
 import ResponsiveNav from "../responsive-nav/responsiveNav";
-export default function Header({ bgColor = "bg-[#252B42]" }) {
+import { client } from "@/sanity/lib/client";
+const Getnavlinks = async () => {
+  const res = await client.fetch(
+    `*[_type == "navlinks"] | order(navlinks_id asc) {title, navlinks_id}`
+  );
+  return res;
+};
+
+interface Navtype {
+  title: string;
+  navlinks_id: number;
+}
+export default async function Header({ bgColor = "bg-[#252B42]" }) {
+  const Data: Navtype[] = await Getnavlinks();
   return (
     <>
       <nav className="nav-con   max-w-[100%] m-auto   sticky top-0 z-50">
@@ -54,7 +67,15 @@ export default function Header({ bgColor = "bg-[#252B42]" }) {
           </div>
           <div>
             <ul className="li-div-nav ul-nav flex list-none font-bold gap-[15px] text-[#737373] text-[13px]">
-              <li>
+              {Data.map((item, index) => (
+                <li key={index}>
+                  <Link href={`/${item.title.toLocaleLowerCase()}`}>
+                    {item.title}
+                  </Link>
+                </li>
+              ))}
+
+              {/* <li>
                 <Link href={"/"} target={"_blank"}>
                   Home
                 </Link>
@@ -79,7 +100,7 @@ export default function Header({ bgColor = "bg-[#252B42]" }) {
                   Contact
                 </Link>
               </li>
-              <li>Pages</li>
+              <li>Pages</li> */}
             </ul>
           </div>
 
