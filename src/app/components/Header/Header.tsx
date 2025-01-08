@@ -69,7 +69,9 @@ export default async function Header({ bgColor = "bg-[#252B42]" }) {
             <ul className="li-div-nav ul-nav flex list-none font-bold gap-[15px] text-[#737373] text-[13px]">
               {Data.map((item, index) => (
                 <li key={index}>
-                  <Link href={`/${item.title.toLocaleLowerCase()}`}>
+                  <Link
+                    href={`/${item.title == "Home" ? "/" : item.title == "Pages" ? "/" : item.title.toLocaleLowerCase()}`}
+                  >
                     {item.title}
                   </Link>
                 </li>
