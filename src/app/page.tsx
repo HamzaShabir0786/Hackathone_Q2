@@ -9,7 +9,7 @@ import Header from "./components/Header/Header";
 export default function Home() {
   return (
     <>
-      <Header />
+      {/* <Header /> */}
       <div className=" max-w-[1840px] h-[750px]   m-auto landing-home">
         <div className="max-w-[1044px] m-auto   h-[651px]  flex items-center">
           <div className="max-w-[599px] max-h-[331px] gap-[35px]    flex px-4  flex-col justify-between">
@@ -31,7 +31,7 @@ export default function Home() {
         </div>
       </div>
       <Desktop2 />
-      <FeaturedProducts />
+      {/* <FeaturedProducts /> */}
       <VitalClassic />
       <Fluid />
       <FeaturedPost />

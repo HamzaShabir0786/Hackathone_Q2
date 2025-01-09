@@ -6,7 +6,7 @@ export default function Innovation() {
   const [Data, setData] = useState(productData);
   return (
     <>
-      <Nav2 />
+      {/* <Nav2 /> */}
       <div className="max-w-[1440px] m-auto h-[auto]">
         <div className="max-w-[1040px] m-auto flex flex-col justify-between items-center py-[30px] px-2 ">
           <h5 className="text-[16px] font-bold text-[#737373]">WHAT WE DO</h5>

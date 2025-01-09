@@ -5,7 +5,7 @@ export default function About() {
   return (
     <>
       <div className="max-w-[1440px] h-auto   m-auto">
-        <Nav2 />
+        {/* <Nav2 /> */}
 
         <div className="about-grid  px-6 py-[20px]">
           <div className="about-grid-1  flex flex-col justify-center items-start gap-10 w-[100%]">

@@ -4,7 +4,7 @@ import CompaniesLogo from "../components/Companies-logo/companies-logo";
 export default function Product1() {
   return (
     <>
-      <Header bgColor="bg-[#23856D]" />
+      {/* <Header bgColor="bg-[#23856D]" /> */}
 
       <div className="max-w-[1440px] m-auto   ">
         <div className="px-2">
