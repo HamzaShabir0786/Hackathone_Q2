@@ -14,7 +14,8 @@ import ResponsiveNav from "../responsive-nav/responsiveNav";
 //   title: string;
 //   navlinks_id: number;
 // }
-export default async function Header({ bgColor = "bg-[#252B42]" }) {
+// remove async keyword from Header function
+export default function Header({ bgColor = "bg-[#252B42]" }) {
   const Data = [
     { title: "Home" },
     { title: "Shop" },
