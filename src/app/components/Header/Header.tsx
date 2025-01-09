@@ -70,7 +70,7 @@ export default async function Header({ bgColor = "bg-[#252B42]" }) {
               {Data.map((item, index) => (
                 <li key={index}>
                   <Link
-                    href={`/${item.title == "Home" ? "/" : item.title == "Pages" ? "/" : item.title.toLocaleLowerCase()}`}
+                    href={`/${item.title == "Home" ? "/" : item.title == "Pages" ? "/" : item.title == "Blog" ? "innovation/" : item.title.toLocaleLowerCase()}`}
                   >
                     {item.title}
                   </Link>
