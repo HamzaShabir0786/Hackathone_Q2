@@ -28,7 +28,7 @@
   @apply relative;
 }
 
-.ul-nav li::before {
+/* .ul-nav li::before {
   @apply mt-[1.2rem] rounded-md absolute w-[10px] border-[1.2px] border-[#737373];
   content: "";
   transition: all 0.25s linear;
@@ -38,7 +38,7 @@
 }
 .ul-nav li::before:hover {
   @apply w-[100%];
-}
+} */
 .desktop2-grid {
   display: grid;
   height: auto;

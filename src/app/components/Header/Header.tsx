@@ -80,13 +80,24 @@ export default async function Header({ bgColor = "bg-[#252B42]" }) {
           <div>
             <ul className="li-div-nav ul-nav flex list-none font-bold gap-[15px] text-[#737373] text-[13px]">
               {Data.map((item, index) => {
-                const isActive = pathname.startsWith(item.title);
-                console.log(isActive, "here is is active");
+                //const isActive = pathname.startsWith(item.title);
+
                 return (
                   <li key={index}>
-                    <Link
+                    {/* <Link
                       href={`/${item.title == "Home" ? "/" : item.title == "Pages" ? "/" : item.title == "Blog" ? "innovation/" : item.title.toLocaleLowerCase()}`}
                       className={isActive ? "bg-red-800" : "bg-green-600"}
+                    >
+                      {item.title}
+                      </Link> */}
+                    <Link
+                      href={`/${item.title === "Home" ? "" : item.title === "Pages" ? "" : item.title === "Blog" ? "innovation" : item.title.toLowerCase()}`}
+                      className={
+                        pathname ===
+                        `/${item.title === "Home" ? "" : item.title === "Pages" ? "" : item.title === "Blog" ? "innovation" : item.title.toLowerCase()}`
+                          ? "text-blue-800  "
+                          : ""
+                      }
                     >
                       {item.title}
                     </Link>
