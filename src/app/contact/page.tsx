@@ -3,7 +3,7 @@ export default function Contact() {
   return (
     <>
       <div className="max-w-[1440px] h-auto  m-auto ">
-        {/* <Nav2 /> */}
+        <Nav2 />
         <div className="home-contact  max-w-[1440px] h-auto py-[80px] m-auto px-2">
           <div className=" grid-contact-home">
             <div className="flex-contact-child-1 flex flex-col justify-center items-start gap-7 w-[100%]   ">
