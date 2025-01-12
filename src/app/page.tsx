@@ -1,4 +1,4 @@
-import Image from "next/image";
+// import Image from "next/image";
 import Desktop2 from "./desktop2/page";
 import FeaturedProducts from "./featuredProducts/page";
 import VitalClassic from "./vitalClassic/page";
