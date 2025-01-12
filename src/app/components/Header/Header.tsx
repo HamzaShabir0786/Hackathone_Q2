@@ -96,8 +96,8 @@ export default function Header({ bgColor = "bg-[#252B42]" }) {
                       className={
                         pathname ===
                         `/${item.title === "Home" ? "" : item.title === "Pages" ? "" : item.title === "Blog" ? "innovation" : item.title.toLowerCase()}`
-                          ? "text-blue-800  "
-                          : ""
+                          ? "text-blue-800 bg-blue-100 p-2 rounded-lg"
+                          : "hover:bg-blue-100 hover:p-2 hover:rounded-md"
                       }
                     >
                       {item.title}
