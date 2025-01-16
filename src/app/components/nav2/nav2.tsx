@@ -2,7 +2,8 @@ import Link from "next/link";
 import ResponsiveNav from "../responsive-nav/responsiveNav";
 // import { navlinks } from "@/sanity/schemaTypes/navlinks";
 
-export default async function Nav2() {
+// remove async function from Nav2()
+export default function Nav2() {
   return (
     <>
       <div className="max-w-[1440px] h-auto  m-auto  sticky top-0 z-50  ">

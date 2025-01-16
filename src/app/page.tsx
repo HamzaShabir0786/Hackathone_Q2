@@ -31,7 +31,7 @@ export default function Home() {
         </div>
       </div>
       <Desktop2 />
-      {/* <FeaturedProducts /> */}
+      <FeaturedProducts />
       <VitalClassic />
       <Fluid />
       <FeaturedPost />
