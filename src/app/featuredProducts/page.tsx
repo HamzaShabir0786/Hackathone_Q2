@@ -42,7 +42,8 @@ export default function FeaturedProducts() {
               return (
                 <div
                   className="feature-grid-items f-g-i-1"
-                  key={items.product_id}
+                  // key={items.product_id}
+                  key={items.id}
                 >
                   <div
                     className="nested-all-feature-1 n-f-1 "
